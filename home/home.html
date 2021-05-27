@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+
+  <title>TEST</title>
+</head>
+<body>
+  
+  <header> 
+    <div class="header_div">
+      <div class="div_ul">
+        <ul class="header_ul">
+          <li class="logo_url">
+            <div class="logo_url_div">
+              <a  href="" class="logo_a">
+                <img class="img_lcc" src="../img/4040.png">
+                <p class="header_text">LCC</p>
+              </a>
+            </div>
+          </li>
+          <li class=""><a  href="" class=""><p class="header_text">Service</p></a></li>
+          <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
+          <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
+          <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="description_div">
+        <div class="lcc">LCC</div>
+        <div class="sentence effect-fade">あなたに「夢」はありますか？</div>
+  </div>
+
+  <div class="footer_div">
+    <div>
+      <p class="footer_p">・Instagram [<a href="https://www.instagram.com/lcc_it/">@LCC_IT</a>]</p>
+      <!-- <a href="" class="footer_a"></a> -->
+    </div>
+    <p class="footer_p">©︎ Life Can Change 2021</p>
+  </div>
+
+  <script>
+    $(function(){
+      $(window).scroll(function (){
+        $('.effect-fade').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight){
+                $(this).addClass('effect-scroll');
+            }
+        });
+      });
+    });
+    window.onload = function() {
+      scroll_effect();
+    
+      $(window).scroll(function(){
+        scroll_effect();
+      });
+      function scroll_effect(){
+        $('.effect-fade').each(function(){
+        var elemPos = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight){
+          $(this).addClass('effect-scroll');
+        }
+        });
+      }
+    };
+  </script>
+
+</body>
+</html>

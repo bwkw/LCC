@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service-home.css">
+
+    <title>service-home</title>
+</head>
+<body>
+  
+    <header> 
+        <div class="header_div">
+          <div class="div_ul">
+            <ul class="header_ul">
+              <li class="logo_url">
+                <div class="logo_url_div">
+                  <a  href="" class="logo_a">
+                    <img class="img_lcc" src="../img/4040.png">
+                    <p class="header_text">LCC</p>
+                  </a>
+                </div>
+              </li>
+              <li class=""><a  href="" class=""><p class="header_text">Service</p></a></li>
+              <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
+              <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
+              <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="service_all">
+        <div class="service_div"><span class="service">サービス&nbsp;:</span><br class="br"><span class="service_title">IT職種を目指すための自己分析</span></div>
+        <div class="service_for">このサービスは、「将来IT人材になりたい！」と考えている方向けのサービスです。</div>
+      </div>
+
+      <div class="what_service">
+          <div class="service_description">
+              昨今の目まぐるしいITの進歩に伴い、IT人材の需要が今後益々高まっていくことが予測されます。<br>
+              ただ、「IT人材に興味はあるけど、何をしたら良いか分からない...」という方が多いのではないのでしょうか？<br>
+              このサービスでは、IT人材になる上で不足したスキルを特定し、そのスキルを補うコンテンツを紹介しています。<br>
+              IT人材になるための一歩を今、踏み出しませんか？
+          </div>
+      </div>
+    
+      <div class="job">
+          <div class="job_list">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/laptop.png"/>
+              <span>職種一覧</span>
+          </div>
+
+          <div class="job_div">
+            <img src="https://img.icons8.com/ios/50/000000/cloud-development.png"/>
+            <span>開発職</span>
+          </div>
+          <div class="job_type">
+            <ul>
+              <li>フロントエンドエンジニア</li>
+              <li>バックエンドエンジニア</li>
+              <li>システムエンジニア</li>
+              <li>データベースエンジニア</li>
+              <li>ネットワークエンジニア</li>
+              <li>サーバーエンジニア</li>
+              <li>クラウドエンジニア</li>
+              <li>組み込み系エンジニア</li>
+              <li>セキュリティエンジニア</li>
+              <li>webデザイナー</li>
+            </ul>
+          </div>
+
+          <div class="job_div">
+            <img src="https://img.icons8.com/wired/64/000000/new-job.png"/>
+            <span>営業・コンサルタント職</span>
+          </div>
+          <div class="job_type">
+            <ul>
+              <li>セールスエンジニア</li>
+              <li>ITコンサルタント</li>
+            </ul>
+          </div>
+
+          <div class="job_div">
+            <img src="https://img.icons8.com/wired/64/000000/marketing.png"/>
+            <span>マーケティング職</span>
+          </div>
+          <div class="job_type">
+            <ul>
+              <li>webマーケティング</li>
+              <li>データアナリスト</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="footer_div">
+        <div>
+          <p class="footer_p">・Instagram [<a href="https://www.instagram.com/lcc_it/">@LCC_IT</a>]</p>
+          <!-- <a href="" class="footer_a"></a> -->
+        </div>
+        <p class="footer_p">©︎ Life Can Change 2021</p>
+      </div>
+    
+      <script>
+        $(function(){
+          $(window).scroll(function (){
+            $('.effect-fade').each(function(){
+                var elemPos = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > elemPos - windowHeight){
+                    $(this).addClass('effect-scroll');
+                }
+            });
+          });
+        });
+        window.onload = function() {
+          scroll_effect();
+        
+          $(window).scroll(function(){
+            scroll_effect();
+          });
+          function scroll_effect(){
+            $('.effect-fade').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight){
+              $(this).addClass('effect-scroll');
+            }
+            });
+          }
+        };
+      </script>
+
+</body>
+</html>

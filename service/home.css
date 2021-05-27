@@ -1,0 +1,491 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+  }
+  /* ///////logo */
+  .img_lcc {
+    width: 34px;
+    height: 34px;
+    /* background: rgb(45, 44, 44); */
+  }
+  .logo_a {
+    display: flex;
+  }
+  .img_lcc {
+    margin-top: 8px;
+    padding-right: 8px;
+  }
+  
+  
+  /* /////////////////////////////////////////////////////////////////////////// */
+  header {
+    height: 50px;
+    width: 100%;
+    background: rgb(45, 44, 44);
+    
+    color: #DDD;
+    position:fixed;
+    background-size: cover;
+    top:0;
+    left:0;
+  }
+  .div_ul {
+    padding: 0 22px;
+  }
+  .header_ul {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header_text {
+    color: #DDD;
+    height: 50px;font-size: 18px;
+    margin-top: 14px;
+  }
+  .service_all{
+      margin: 3% 0px 4%;
+  }
+  
+
+   /* //////////////////////   フッターのCSS   */
+   .footer_div {
+    background: rgb(45, 44, 44);
+    color: #DDD;
+    text-align: center;
+ }
+ .footer_a {
+   padding-top: 35px;
+ }
+ .footer_p {
+   padding-top: 35px;
+   padding-bottom: 15px;
+ }
+
+ a{
+     color:#DDD;
+ }
+ a:hover{
+    color : gray;
+ }
+
+ @media screen and (min-width: 1367px){
+  .service_all{
+    width: 80%;
+    margin: 0px auto;
+    padding: 6% 0px 0px;
+  }
+  .service{
+      font-size: 350%;
+  }
+  .service_title{
+      font-size: 300%;
+      padding: 0px 40px;
+  }
+  .service_for{
+    font-size: 160%;
+    color: #808080;
+    margin: 0px auto;
+    padding: 1% 0px 0px 5%;
+  }
+  .br{
+    display: none;
+  }
+  .what_service{
+      width: 80%;
+      margin: 4% auto;
+      border-left: solid 6px #FFA500;
+      background-color: #FFF8DC;
+  }
+  .service_description{
+      font-size: 130%;
+      padding: 1.4% 2.3% 1.4% 2.3%;
+      line-height : 1.8;
+  }
+  .job{
+    width: 80.25%;
+    padding-bottom: 0.5%;
+    margin: 6% auto;
+    background-color: #F9F8F8;
+  }
+  .job_list{
+    width: 100%;
+    background-color: #DBDBDB;
+  }
+  .job_list img{
+    margin:1.4% 2% 1.4% 2%;
+    height: 4vw;
+    vertical-align: middle;
+  }
+  .job_list span{
+    vertical-align: middle;
+    font-size: 180%;
+  }
+  .job_div{
+    width: 100%;
+    background-color: #EAE8E8;
+  }
+  .job_div img{ 
+    margin:1.4% 2% 1.4% 5%;
+    height: 3.5vw;
+    vertical-align: middle;
+  }
+  .job_div span{
+    vertical-align: middle;
+    font-size: 150%;
+  }
+  .job_type{
+    width: 100%;
+  }
+  .job_type li{
+    margin:2% 0% 2% 10%;
+    font-size: 130%;
+  }
+}
+
+/*パソコン*/
+@media screen and (max-width: 1366px){
+  .service_all{
+    width: 85%;
+    margin: 0px auto;
+    padding: 8% 0px 0px;
+  }
+  .service{
+      font-size: 280%;
+  }
+  .service_title{
+      font-size: 220%;
+      padding: 0px 40px;
+  }
+  .br{
+    display: none;
+  }
+  .service_for{
+    font-size: 150%;
+    color: #575757;
+    margin: 0px auto;
+    padding: 1% 0px 0px 4%;
+  }
+  .what_service{
+      width: 85%;
+      margin: 4% auto;
+      border-left: solid 6px #FFA500;
+      background-color: #FFF8DC;
+  }
+  .service_description{
+      font-size: 130%;
+      padding: 1.4% 2.3% 1.4% 2.3%;
+      line-height : 1.8;
+  }
+  .job{
+    width: 85.25%;
+    padding-bottom: 0.5%;
+    margin: 6% auto;
+    background-color: #F9F8F8;
+  }
+  .job_list{
+    width: 100%;
+    background-color: #DBDBDB;
+  }
+  .job_list img{
+    margin:1.4% 2% 1.4% 2%;
+    height: 4vw;
+    vertical-align: middle;
+  }
+  .job_list span{
+    vertical-align: middle;
+    font-size: 180%;
+  }
+  .job_div{
+    width: 100%;
+    background-color: #EAE8E8;
+  }
+  .job_div img{ 
+    margin:1.4% 2% 1.4% 5%;
+    height: 3.5vw;
+    vertical-align: middle;
+  }
+  .job_div span{
+    vertical-align: middle;
+    font-size: 150%;
+  }
+  .job_type{
+    width: 100%;
+  }
+  .job_type li{
+    margin:2% 0% 2% 10%;
+    font-size: 130%;
+  }
+}
+
+/*タブレット縦*/
+@media screen and (max-width: 1024px){
+  .service_all{
+    width: 85%;
+    margin: 0px auto;
+    padding: 7% 0px 0px;
+  }
+  .service{
+      font-size: 240%;
+  }
+  .service_title{
+      font-size: 200%;
+      padding: 0px 30px;
+  }
+  .br{
+    display: none;
+  }
+  .service_for{
+    font-size: 130%;
+    color: #808080;
+    margin: 0px auto;
+    padding: 1% 0px 0px 3%;
+  }
+  .what_service{
+      width: 85%;
+      margin: 5% auto;
+      border-left: solid 6px #FFA500;
+      background-color: #FFF8DC;
+  }
+  .service_description{
+      font-size: 120%;
+      padding: 1.4% 1.4% 1.4% 2.3%;
+      line-height : 1.8;
+  }
+  .job{
+    width: 85%;
+    padding-bottom: 0.5%;
+    margin: 7% auto;
+    background-color: #F9F8F8;
+  }
+  .job_list{
+    width: 100%;
+    background-color: #DBDBDB;
+  }
+  .job_list img{
+    margin:1.4% 2% 1.4% 2%;
+    height: 4vw;
+    vertical-align: middle;
+  }
+  .job_list span{
+    vertical-align: middle;
+    font-size: 180%;
+  }
+  .job_div{
+    width: 100%;
+    background-color: #EAE8E8;
+  }
+  .job_div img{ 
+    margin:1.4% 2% 1.4% 5%;
+    height: 3.5vw;
+    vertical-align: middle;
+  }
+  .job_div span{
+    vertical-align: middle;
+    font-size: 150%;
+  }
+  .job_type{
+    width: 100%;
+  }
+  .job_type li{
+    margin:2% 0% 2% 10%;
+    font-size: 130%;
+  }
+}
+
+/*スマホ横*/
+@media screen and (max-width: 896px){
+  .service_all{
+    width: 90%;
+    margin: 0px auto;
+    padding: 10% 0px 0px;
+  }
+  .service{
+      font-size: 220%;
+  }
+  .service_title{
+      font-size: 170%;
+      padding: 0px 20px;
+  }
+  .br{
+    display: none;
+  }
+  .service_for{
+    font-size: 110%;
+    color: #808080;
+    margin: 0px auto;
+    padding: 1% 0px 0px 3%;
+  }
+  .what_service{
+    width: 90%;
+    margin: 4% auto;
+    border-left: solid 6px #FFA500;
+    background-color: #FFF8DC;
+  }
+  .service_description{
+      font-size: 100%;
+      padding: 1.4% 1.4% 1.4% 2.3%;
+      line-height : 1.8;
+  }
+  .job{
+    width: 91.2%;
+    padding-bottom: 0.5%;
+    margin: 7% auto;
+    background-color: #F9F8F8;
+  }
+  .job_list{
+    width: 100%;
+    background-color: #DBDBDB;
+  }
+  .job_list img{
+    margin:1.4% 2% 1.4% 2%;
+    height: 4vw;
+    vertical-align: middle;
+  }
+  .job_list span{
+    vertical-align: middle;
+    font-size: 180%;
+  }
+  .job_div{
+    width: 100%;
+    background-color: #EAE8E8;
+  }
+  .job_div img{ 
+    margin:1.4% 2% 1.4% 5%;
+    height: 3.5vw;
+    vertical-align: middle;
+  }
+  .job_div span{
+    vertical-align: middle;
+    font-size: 150%;
+  }
+  .job_type{
+    width: 100%;
+  }
+  .job_type li{
+    margin:2% 0% 2% 10%;
+    font-size: 130%;
+  }
+}
+
+/*スマホ縦*/
+@media screen and (max-width: 480px){
+  .service_all{
+    width: 95%;
+    margin: 0px auto;
+    padding: 18% 0px 0px;
+  }
+  .service{
+      font-size: 180%;
+  }
+  .service_title{
+      font-size: 140%;
+      margin-top:2%;
+      padding-left: 7%;
+  }
+  .br{
+    display:inline-block;
+  }
+  .service_for{
+    font-size: 95%;
+    color: #808080;
+    margin: 2% auto;
+    padding: 1% 0px 0px 3%;
+  }
+  .what_service{
+    width: 95%;
+    margin: 5% auto;
+    border-left: solid 6px #FFA500;
+    background-color: #FFF8DC;
+  }
+  .service_description{
+      font-size: 90%;
+      padding: 1.4% 1.4% 1.4% 2.3%;
+      line-height : 1.8;
+  }
+  .job{
+    width: 95.5%;
+    padding-bottom: 0.5%;
+    margin: 8% auto;
+    background-color: #F9F8F8;
+  }
+  .job_list{
+    width: 100%;
+    background-color: #DBDBDB;
+  }
+  .job_list img{
+    margin:1.4% 2% 1.4% 2%;
+    height: 5vw;
+    vertical-align: middle;
+  }
+  .job_list span{
+    vertical-align: middle;
+    font-size: 140%;
+  }
+  .job_div{
+    width: 100%;
+    background-color: #EAE8E8;
+  }
+  .job_div img{ 
+    margin:1.4% 2% 1.4% 5%;
+    height: 4vw;
+    vertical-align: middle;
+  }
+  .job_div span{
+    vertical-align: middle;
+    font-size: 120%;
+  }
+  .job_type{
+    width: 100%;
+  }
+  .job_type li{
+    margin:2% 0% 2% 10%;
+    font-size: 100%;
+  }
+}
+
+/* ヘッダー */
+@media screen and (min-width: 700px){
+  .div_ul {
+    margin: 0 12px;
+  }
+}
+@media screen and (min-width: 800px){
+  .div_ul {
+    margin: 0 26px;
+  }
+}
+@media screen and (min-width: 900px){
+  .div_ul {
+    margin: 0 42px;
+  }
+}
+@media screen and (min-width: 1000px){
+  .div_ul {
+    margin: 0 60px;
+  }
+}
+@media screen and (min-width: 1100px){
+  .div_ul {
+    margin: 0 80px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .div_ul {
+    margin: 0 102px;
+  }
+}
+@media screen and (min-width: 1300px){
+  .div_ul {
+    margin: 0 126px;
+  }
+}
+@media screen and (min-width: 1400px){
+  .div_ul {
+    margin: 0 152px;
+  }
+}
