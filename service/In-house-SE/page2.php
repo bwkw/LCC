@@ -11,7 +11,7 @@ $occupation = "社内SE";
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>In-house SE</title>
-  <link rel="stylesheet" href="frontend2_pc.css">
+  <link rel="stylesheet" href="page2_pc.css">
 </head>
 <body>
 
@@ -246,7 +246,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -284,7 +284,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -341,7 +341,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -379,7 +379,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -407,7 +407,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -466,7 +466,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -504,7 +504,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -532,7 +532,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス progate</p>
@@ -586,7 +586,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -623,7 +623,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -650,7 +650,7 @@ $occupation = "社内SE";
               <?php } elseif($_SESSION["array"]["answer10"] === "3") {?>
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス progate</p>
@@ -704,7 +704,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -742,7 +742,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -780,7 +780,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="../img/programmer-1653351_640.png">
+                    <img class="answer_image" src="../../img/programmer-1653351_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div_dot_pro">
                         <p class="answer_image_p ">オンラインプログラミングサービス dotinstall</p>
@@ -1058,7 +1058,7 @@ $occupation = "社内SE";
           <div class="return_button">
             <div class="return_button_div">
               <p class="return_button_p">自己分析を終了し、IT自己分析サービスのページに戻ります。</p>
-              <a class="return_button_a" href="http://co-19-216.99sv-coco.com/service1/service-home/service-home.html">終了する</a>
+              <a class="return_button_a" href="http://co-19-216.99sv-coco.com/lcc/service/home.html">終了する</a>
             </div>
           </div>
 
@@ -1091,13 +1091,13 @@ $occupation = "社内SE";
         <ul class="header_ul">
           <li class="logo_url">
             <div class="logo_url_div">
-              <a  href="" class="logo_a">
-                <img class="img_lcc"src="../img/4040.png">
+              <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.html" class="logo_a">
+                <img class="img_lcc"src="../../img/4040.png">
                 <p class="header_text">LCC</p>
               </a>
             </div>
           </li>
-          <li class=""><a  href="http://co-19-216.99sv-coco.com/service1/service-home/service-home.html" class=""><p class="header_text">Service</p></a></li>
+          <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.html" class=""><p class="header_text">Service</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>

@@ -5,7 +5,7 @@ $_SESSION["array"] = "";
 
 if (isset($_POST["answer_send"])) {
     $_SESSION["array"] = $_POST;
-    header("Location: http://co-19-216.99sv-coco.com/service1/In-house-SE/frontend2.php");
+    header("Location: http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page2.php");
     exit;
 }
 
@@ -17,7 +17,7 @@ if (isset($_POST["answer_send"])) {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="frontend1_pc.css">
+  <link rel="stylesheet" href="page1_pc.css">
 
   <title>TEST</title>
 </head>
@@ -45,13 +45,13 @@ if (isset($_POST["answer_send"])) {
         <ul class="header_ul">
           <li class="logo_url">
             <div class="logo_url_div">
-              <a  href="" class="logo_a">
-                <img class="img_lcc" src="../img/4040.png">
+              <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.html" class="logo_a">
+                <img class="img_lcc" src="../../img/4040.png">
                 <p class="header_text">LCC</p>
               </a>
             </div>
           </li>
-          <li class=""><a  href="" class=""><p class="header_text">Service</p></a></li>
+          <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.html" class=""><p class="header_text">Service</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
           <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
@@ -65,7 +65,7 @@ if (isset($_POST["answer_send"])) {
 <!-- 質問表示div -->
   <div class="questions_div">
     <!-- formの用意 -->
-    <form method="post" action="http://co-19-216.99sv-coco.com/service1/In-house-SE/frontend1.php" name="form" onsubmit="return formCheck()">
+    <form method="post" action="http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page1.php" name="form" onsubmit="return formCheck()">
 
       <!-- 問題解決能力の質問 div -->
       <div class="questions_answer_div">
