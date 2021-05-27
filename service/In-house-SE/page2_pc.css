@@ -308,13 +308,15 @@
     margin: 10px 40px;
   }
   /* 回答結果 能力がある場合 */
-
-  .no_answer_li_p {
-    font-size: 18px;
-    font-weight: 200;
-    display: inline-block;
-    margin: 20px 0;
+  .no_answer_li {
     text-align: center;
+    margin: 0 auto;
+  }
+  .no_answer_li_p {
+      font-size: 18px;
+      font-weight: 200;
+      display: inline-block;
+      margin: 20px 0;
   }
   
   /* //////////////////////   フッターのCSS   */

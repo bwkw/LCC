@@ -976,7 +976,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="programming-3170992_640.png">
+                    <img class="answer_image" src="../../img/news-1172463_640.jpg">
                     <div class="cover_box">
                       <div class="answer_image_div">
                         <p class="answer_image_p">日経XTECH</p>
