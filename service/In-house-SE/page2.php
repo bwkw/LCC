@@ -1028,7 +1028,7 @@ $occupation = "社内SE";
 
                 <li class="answer_li sonota">
                   <div class="image_url">
-                    <img class="answer_image" src="images/programming-3170992_640.png">
+                    <img class="answer_image" src="../../img/programming-3170992_640.png">
                     <div class="cover_box">
                       <div class="answer_image_div">
                         <p class="answer_image_p">未来につながるAIメディア</p>
