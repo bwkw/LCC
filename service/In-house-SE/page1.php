@@ -2,11 +2,18 @@
 $occupation = "社内SE";
 session_start();
 $_SESSION["array"] = "";
+$_SESSION["URL"] = $_SERVER['REQUEST_URI'];
 
 if (isset($_POST["answer_send"])) {
-    $_SESSION["array"] = $_POST;
-    header("Location: http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page2.php");
-    exit;
+  $_SESSION["array"] = $_POST;
+  header("Location: http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page2.php");
+  exit;
+}
+
+if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
+  $_SESSION["URL"] = $_SERVER['REQUEST_URI'];
+  header("Location: http://co-19-216.99sv-coco.com/lcc/user_judge.php");
+  exit;
 }
 
 ?>
@@ -14,53 +21,100 @@ if (isset($_POST["answer_send"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="page1_pc.css">
 
-  <title>TEST</title>
+  <?php if ($_SESSION["computer"] === "pc") { ?>
+      <link rel="stylesheet" href="page1_pc.css">
+    <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+      <link rel="stylesheet" href="page1_phone.css">
+  <?php } ?>
+
+  <title><?php echo $occupation; ?></title>
 </head>
 <body>
 
   <!-- 説明文等 -->
   <div class="description_div">
     <div class="cover_box">
-      <h1 class="description_h1 effect-fade"><?php echo $occupation; ?>を目指すための自己分析<hr class="h1_hr"></h1>
-      <h2 class="description_h2 effect-fade">全１９問<span> </span>約５分</h2>
-      <h3 class="description_h3 effect-fade">に必須のスキルをあなたは持っていますか？
+      <?php if ($_SESSION["computer"] === "pc") { ?>
+        <h1 class="description_h1 effect-fade"><?php echo $occupation; ?>を、目指すための自己分析<hr class="h1_hr"></h1>
+      <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+        <h1 class="description_h1 effect-fade"><?php echo $occupation; ?>を<br>目指すための自己分析<hr class="h1_hr"></h1>
+      <?php } ?>
+      <h2 class="description_h2 effect-fade">全19問<span> </span>約6分</h2>
+      <h3 class="description_h3 effect-fade"><?php echo $occupation; ?>に必須なスキルをあなたは持っていますか？
         この質問は<?php echo $occupation; ?>になる上で、あなたの不足したスキルを特定するものです。
         周りから一歩前進し、あなたも優秀な人材に！</h3>
       <h3 class="description_h3 effect-fade">--使用法--<hr class="h4_hr"></h3>
-      <p class="description_h3_p effect-fade">Q１-- Q１９の質問に答え、結果を送信を押してください。</p>
+      <?php if ($_SESSION["computer"] === "pc") { ?>
+        <p class="description_h3_p effect-fade">Q１-- Q１9の質問に答え、結果を送信を押してください。</p>
+      <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+        <p class="description_h3_p effect-fade">Q１-- Q１９の質問に答え<br>結果を送信を押してください。</p>
+      <?php } ?>
       <p class="description_h3_p effect-fade">(全ての質問に回答するようにお願いします)</p>
     </div>
   </div>
   
-
-
-  <header> 
-    <div class="header_div">
-      <div class="div_ul">
-        <ul class="header_ul">
-          <li class="logo_url">
-            <div class="logo_url_div">
-              <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.html" class="logo_a">
-                <img class="img_lcc" src="../../img/4040.png">
-                <p class="header_text">LCC</p>
-              </a>
-            </div>
-          </li>
-          <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.html" class=""><p class="header_text">Service</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
-        </ul>
+<!-- header用div -->
+  <?php if ($_SESSION["computer"] === "pc") { ?>
+    <header> 
+      <div class="header_div">
+        <div class="div_ul">
+          <ul class="header_ul">
+            <li class="logo_url">
+              <div class="logo_url_div">
+                <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.php" class="logo_a">
+                  <img class="img_lcc"src="../../img/4040.png">
+                  <p class="header_text">LCC</p>
+                </a>
+              </div>
+            </li>
+            <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.php" class=""><p class="header_text">Service</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
+          </ul>
+        </div>
       </div>
+    </header>
+  <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+    <div class="phone_header">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+  
+      <nav class="globalMenuSp">
+        <ul>
+            <li><a href="http://co-19-216.99sv-coco.com/lcc/home/home.php">Home</a></li>
+            <li><a href="http://co-19-216.99sv-coco.com/lcc/service/home.php">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Summary</a></li>
+            <li><a href="#">SNS</a></li>
+        </ul>
+      </nav>
+  
+      <header> 
+        <div class="header_div">
+          <div class="div_ul">
+            <ul class="header_ul">
+              <li class="logo_url">
+                <div class="logo_url_div">
+                  <a  href="" class="logo_a">
+                    <img class="img_lcc"src="../../img/4040.png">
+                    <p class="header_text">LCC</p>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
     </div>
-  </header>
-
-
+  <?php } ?>
 
 <!-- 質問表示div -->
   <div class="questions_div">
@@ -329,17 +383,20 @@ if (isset($_POST["answer_send"])) {
 
     </form>
   </div>
-  
+
+
 <!-- footer用div -->
-  <div class="footer_div">
-    <div>
-      <p class="footer_p">・Instagram [lccインスタアカウント]</p>
-      <!-- <a href="" class="footer_a"></a> -->
+<div class="footer_div"> 
+    <div class="Instagram_div">
+      <div class="Instagram_icon_div">
+        <a target="_blank" class="Instagram_icon_a" href="https://www.instagram.com/lcc_it/">
+          <img class="Instagram_icon" src="https://img.icons8.com/nolan/64/instagram-new.png"/>
+        </a>
+        <p class="Instagram_icon_p">Instagram [@LCC_IT]</p>
+      </div>
     </div>
     <p class="footer_p">©︎ Life Can Change 2021</p>
-
   </div>
-
 
 
   <script>
@@ -378,7 +435,7 @@ if (isset($_POST["answer_send"])) {
       if((document.form.answer1.value == "")||(document.form.answer2.value == "")||(document.form.answer3.value == "")||(document.form.answer4.value == "")||(document.form.answer5.value == "")
       ||(document.form.answer6.value == "")||(document.form.answer7.value == "")||(document.form.answer8.value == "")||(document.form.answer9.value == "")||(document.form.answer10.value == "")
       ||(document.form.answer11.value == "")||(document.form.answer12.value == "")||(document.form.answer13.value == "")||(document.form.answer14.value == "")||(document.form.answer15.value == "")
-      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == ""))
+      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer11.value == "")||(document.form.answer12.value == ""))
       {
           flag = 1;
       }
@@ -390,7 +447,23 @@ if (isset($_POST["answer_send"])) {
       else{
           return true;
       }
-  }
-   </script>
+    }
+
+
+    $(function() {
+      $('.hamburger').click(function() {
+          $(this).toggleClass('active');
+   
+          if ($(this).hasClass('active')) {
+              $('.globalMenuSp').addClass('active');
+          } else {
+              $('.globalMenuSp').removeClass('active');
+          }
+      });
+    });
+
+  </script>
+
+  
 </body>
 </html>

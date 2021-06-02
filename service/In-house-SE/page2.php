@@ -1,7 +1,13 @@
 <?php
 session_start();
-// var_dump($_SESSION["array"]);
 $occupation = "社内SE";
+
+if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
+  $_SESSION["URL"] = $_SERVER['REQUEST_URI'];
+  header("Location: http://co-19-216.99sv-coco.com/lcc/user_judge.php");
+  exit;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -1058,7 +1064,7 @@ $occupation = "社内SE";
           <div class="return_button">
             <div class="return_button_div">
               <p class="return_button_p">自己分析を終了し、IT自己分析サービスのページに戻ります。</p>
-              <a class="return_button_a" href="http://co-19-216.99sv-coco.com/lcc/service/home.html">終了する</a>
+              <a class="return_button_a" href="http://co-19-216.99sv-coco.com/lcc/service/home.php">終了する</a>
             </div>
           </div>
 
@@ -1075,41 +1081,79 @@ $occupation = "社内SE";
   </div>
 
 
-  <!-- footer用div -->
-  <div class="footer_div">
-    <div>
-      <p class="footer_p">・Instagram [@LCC_IT]</p>
+  <!-- header用div -->
+  <?php if ($_SESSION["computer"] === "pc") { ?>
+    <header> 
+      <div class="header_div">
+        <div class="div_ul">
+          <ul class="header_ul">
+            <li class="logo_url">
+              <div class="logo_url_div">
+                <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.php" class="logo_a">
+                  <img class="img_lcc"src="../../img/4040.png">
+                  <p class="header_text">LCC</p>
+                </a>
+              </div>
+            </li>
+            <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.php" class=""><p class="header_text">Service</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
+            <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+    <div class="phone_header">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+  
+      <nav class="globalMenuSp">
+        <ul>
+            <li><a href="http://co-19-216.99sv-coco.com/lcc/home/home.php">Home</a></li>
+            <li><a href="http://co-19-216.99sv-coco.com/lcc/service/home.php">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Summary</a></li>
+            <li><a href="#">SNS</a></li>
+        </ul>
+      </nav>
+  
+      <header> 
+        <div class="header_div">
+          <div class="div_ul">
+            <ul class="header_ul">
+              <li class="logo_url">
+                <div class="logo_url_div">
+                  <a  href="" class="logo_a">
+                    <img class="img_lcc"src="../../img/4040.png">
+                    <p class="header_text">LCC</p>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+  <?php } ?>
+
+ <!-- footer用div -->
+<div class="footer_div"> 
+    <div class="Instagram_div">
+      <div class="Instagram_icon_div">
+        <a target="_blank" class="Instagram_icon_a" href="https://www.instagram.com/lcc_it/">
+          <img class="Instagram_icon" src="https://img.icons8.com/nolan/64/instagram-new.png"/>
+        </a>
+        <p class="Instagram_icon_p">Instagram [@LCC_IT]</p>
+      </div>
     </div>
     <p class="footer_p">©︎ Life Can Change 2021</p>
   </div>
-
   
-  <!-- ////////////////////////////////  LCC header  -->
-  <header class="lcc_header"> 
-    <div class="header_div">
-      <div class="div_ul">
-        <ul class="header_ul">
-          <li class="logo_url">
-            <div class="logo_url_div">
-              <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.html" class="logo_a">
-                <img class="img_lcc"src="../../img/4040.png">
-                <p class="header_text">LCC</p>
-              </a>
-            </div>
-          </li>
-          <li class=""><a  href="http://co-19-216.99sv-coco.com/lcc/service/home.html" class=""><p class="header_text">Service</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">Blog</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">Summary</p></a></li>
-          <li class=""><a  href="" class=""><p class="header_text">SNS</p></a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-
-  <!-- <div class="test"></div> -->
-
-
+  
 
 
   <script>
@@ -1136,6 +1180,18 @@ $occupation = "社内SE";
       });
 
     }
+
+    $(function() {
+      $('.hamburger').click(function() {
+          $(this).toggleClass('active');
+    
+          if ($(this).hasClass('active')) {
+              $('.globalMenuSp').addClass('active');
+          } else {
+              $('.globalMenuSp').removeClass('active');
+          }
+      });
+    });
 
   </script>
 </body>
