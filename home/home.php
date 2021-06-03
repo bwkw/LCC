@@ -35,7 +35,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             <li class="logo_url">
               <div class="logo_url_div">
                 <a  href="http://co-19-216.99sv-coco.com/lcc/home/home.php" class="logo_a">
-                  <img class="img_lcc"src="../../img/4040.png">
+                  <img class="img_lcc"src="../img/4040.png">
                   <p class="header_text">LCC</p>
                 </a>
               </div>
