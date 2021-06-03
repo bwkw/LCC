@@ -93,7 +93,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
   </div>
 
 <!-- footer用div -->
-<div class="footer_div"> 
+  <div class="footer_div"> 
     <div class="Instagram_div">
       <div class="Instagram_icon_div">
         <a target="_blank" class="Instagram_icon_a" href="https://www.instagram.com/lcc_it/">

@@ -83,6 +83,17 @@
 .Instagram_icon_a {
   height: 32px;
 }
+.job_type_a{
+  color: black;
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0.3em;
+  transition: .3s;
+  transform: scale(1);
+}
+.job_type_a:hover {
+  transform: scale(1.05);
+}
 
  @media screen and (min-width: 1367px){
   .service_all{
@@ -155,17 +166,6 @@
   .job_type li{
     margin:2% 0% 2% 10%;
     font-size: 130%;
-  }
-  .job_type_a{
-    color: black;
-    text-decoration: underline;
-    display: inline-block;
-    padding: 0.3em;
-    transition: .3s;
-    transform: scale(1);
-  }
-  .job_type_a:hover {
-    transform: scale(1.05);
   }
 }
 
@@ -316,157 +316,6 @@
   .job_type li{
     margin:2% 0% 2% 10%;
     font-size: 130%;
-  }
-}
-
-/*スマホ横*/
-@media screen and (max-width: 896px){
-  .service_all{
-    width: 90%;
-    margin: 0px auto;
-    padding: 10% 0px 0px;
-  }
-  .service{
-      font-size: 220%;
-  }
-  .service_title{
-      font-size: 170%;
-      padding: 0px 20px;
-  }
-  .br{
-    display: none;
-  }
-  .service_for{
-    font-size: 110%;
-    color: #808080;
-    margin: 0px auto;
-    padding: 1% 0px 0px 3%;
-  }
-  .what_service{
-    width: 90%;
-    margin: 4% auto;
-    border-left: solid 6px #FFA500;
-    background-color: #FFF8DC;
-  }
-  .service_description{
-      font-size: 100%;
-      padding: 1.4% 1.4% 1.4% 2.3%;
-      line-height : 1.8;
-  }
-  .job{
-    width: 91.2%;
-    padding-bottom: 0.5%;
-    margin: 7% auto;
-    background-color: #F9F8F8;
-  }
-  .job_list{
-    width: 100%;
-    background-color: #DBDBDB;
-  }
-  .job_list img{
-    margin:1.4% 2% 1.4% 2%;
-    height: 4vw;
-    vertical-align: middle;
-  }
-  .job_list span{
-    vertical-align: middle;
-    font-size: 180%;
-  }
-  .job_div{
-    width: 100%;
-    background-color: #EAE8E8;
-  }
-  .job_div img{ 
-    margin:1.4% 2% 1.4% 5%;
-    height: 3.5vw;
-    vertical-align: middle;
-  }
-  .job_div span{
-    vertical-align: middle;
-    font-size: 150%;
-  }
-  .job_type{
-    width: 100%;
-  }
-  .job_type li{
-    margin:2% 0% 2% 10%;
-    font-size: 130%;
-  }
-}
-
-/*スマホ縦*/
-@media screen and (max-width: 480px){
-  .service_all{
-    width: 95%;
-    margin: 0px auto;
-    padding: 18% 0px 0px;
-  }
-  .service{
-      font-size: 180%;
-  }
-  .service_title{
-      font-size: 140%;
-      margin-top:2%;
-      padding-left: 7%;
-  }
-  .br{
-    display:inline-block;
-  }
-  .service_for{
-    font-size: 95%;
-    color: #808080;
-    margin: 2% auto;
-    padding: 1% 0px 0px 3%;
-  }
-  .what_service{
-    width: 95%;
-    margin: 5% auto;
-    border-left: solid 6px #FFA500;
-    background-color: #FFF8DC;
-  }
-  .service_description{
-      font-size: 90%;
-      padding: 1.4% 1.4% 1.4% 2.3%;
-      line-height : 1.8;
-  }
-  .job{
-    width: 95.5%;
-    padding-bottom: 0.5%;
-    margin: 8% auto;
-    background-color: #F9F8F8;
-  }
-  .job_list{
-    width: 100%;
-    background-color: #DBDBDB;
-  }
-  .job_list img{
-    margin:1.4% 2% 1.4% 2%;
-    height: 5vw;
-    vertical-align: middle;
-  }
-  .job_list span{
-    vertical-align: middle;
-    font-size: 140%;
-  }
-  .job_div{
-    width: 100%;
-    background-color: #EAE8E8;
-  }
-  .job_div img{ 
-    margin:1.4% 2% 1.4% 5%;
-    height: 4vw;
-    vertical-align: middle;
-  }
-  .job_div span{
-    vertical-align: middle;
-    font-size: 120%;
-  }
-  .job_type{
-    width: 100%;
-  }
-  .job_type li{
-    margin:2% 0% 2% 10%;
-    font-size: 100%;
   }
 }
 

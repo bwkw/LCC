@@ -22,7 +22,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
     <link rel="stylesheet" href="home_pc.css">
     <?php } elseif ($_SESSION["computer"] === "phone") { ?>
       <link rel="stylesheet" href="home_phone.css">
-  <?php } ?>
+    <?php } ?>
     <title>service</title>
 </head>
 <body>
