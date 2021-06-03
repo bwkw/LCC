@@ -60,7 +60,7 @@ a {
   .hamburger {
     display : block;
     position: fixed;
-    z-index : 3;
+    z-index : 4;
     right : 13px;
     top   : 4px;
     width : 42px;
@@ -128,8 +128,8 @@ a {
   
   nav.globalMenuSp {
     border-bottom: 1px solid #fff;
-    margin-top: -500px;
-    z-index : 2;
+    margin-top: 0px;
+    z-index: 3;
     top  : 0;
     left : 0;
     color: #000;
@@ -199,7 +199,6 @@ a {
     width:100%;
     height:calc(100vw/3.4);
     background-size:cover;
-   ;
   }
 
   .lcc {
@@ -224,7 +223,6 @@ a {
     transform : translate(0, 0);
   }
   
-
  a{
      color:#DDD;
  }

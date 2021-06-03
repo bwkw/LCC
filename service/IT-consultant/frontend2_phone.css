@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background: #EEFFFF;
+    /* background: #000000; */
+  }
+
+  body{
+    margin: 0 auto;
+    width: 96%;
+    background: #EEFFFF;
+  }
+
+  h1 {
+    background: #FFF;
+  }
+
+  .description_div {
+    width: 100%;
+    background: #99FFFF;
+    border: 1px solid #888888;
+  }
+
+  .description {
+    margin-top: 20px;
+    margin-left: 4%;
+    width: 94%;
+    font-size: 110%;
+    margin-bottom: 10px;
+  }
+
+  .cau_description{
+    margin-left: 5%;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 80%;
+  }
+
+  .midasi_div {
+    padding-top:20px;
+    width: 100%;
+  }
+
+  .midasi_div h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 32.5% ;
+    text-align: center;
+  }
+
+  h2.active {
+    color: #EEEEEE;
+    background: #555555;
+    cursor: pointer;
+  }
+
+  .midasi_h2_1 {
+    height: 50px;
+    width: 32%;
+    line-height: 50px;
+    font-size: 11px;
+  }
+
+  .midasi_h2_1:not(.active):hover {
+    border: none;
+    background: #7a7a7a;
+    color: #d4d4d4;
+    transition: 0.4s;
+  }
+
+  div.kekka {
+    display: none;
+    width: 100%;
+  }
+
+  div.active {
+    display: block;
+  }
+
+  div.total{
+    width: 100%;
+  }
+  
+  .kkk {
+    width: 100%;
+    border: double 2px rgb(170, 170, 170);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .kekka_1_p{
+    margin: 0 auto;
+    font-weight: 900;
+    width: 80%;
+    border-bottom: 2px solid black;
+  }
+
+  table {
+    margin: 0 auto;
+  }
+
+  .guide{
+    margin: 0 auto;
+  }
+
+  .xxx {
+    width:100%;
+    margin: 0 auto;
+  }
+
+  .kekka_1_a {
+    margin: 0 auto;
+    font-weight: 900;
+    padding-top: 10px;
+  }
+
+  .guide_title{
+    width:95%;
+    margin: 0 auto;
+  }
+
+  .guide_des{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:95%;
+    margin: 0 auto;
+  }
+
+  hr {
+    width: calc( 100% - 20px );
+    margin: 0 auto;
+  }
+
+  .book{
+    color: #38b48b;
+  }
+
+  .mov {
+    color: #FF69A3;
+  }
+
+  .sonota{
+    color: #FFA500;
+  }
+
+  .recommend_noimage{
+    display: block;
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .message{
+    margin-top: 15px;
+    font-size:80%;
+  }

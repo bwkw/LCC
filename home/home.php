@@ -12,10 +12,10 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="home.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 
   <?php if ($_SESSION["computer"] === "pc") { ?>
     <link rel="stylesheet" href="home_pc.css">
@@ -86,8 +86,10 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
   <?php } ?>
 
   <div class="description_div">
-        <div class="lcc">LCC</div>
-        <div class="sentence effect-fade">あなたに「夢」はありますか？</div>
+    <div class="cover_box">
+        <p class="lcc">LCC</p>
+        <p class="sentence effect-fade">あなたに「夢」はありますか？</p>
+    </div>
   </div>
 
 <!-- footer用div -->

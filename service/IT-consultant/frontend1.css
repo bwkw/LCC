@@ -1,0 +1,286 @@
+@media screen and (min-width: 960px){
+    .all{
+        margin: 0 auto;
+        font-family:'arial';
+        width: 900px;
+    }
+
+    .all div{
+        margin: 0 auto;
+    }
+
+    .occupation{
+        margin: 0 auto;
+        text-align: center;
+        color:#333333;/*文字色*/
+        padding: 0.5em;/*文字周りの余白*/
+        display: inline-block;
+        line-height: 1.3;/*行高*/
+        background-color:  #BBFFFF;/*背景色*/
+        vertical-align: middle;
+        border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+        box-shadow: 4px 4px 4px #BBBBBB;
+        width: 100%;
+        font-size:230%;
+    }
+
+    .occupation:before{
+        content: '●';
+        color: white;/*背景色*/
+        float: left;
+    }
+
+    .num-time{
+        text-align:center;
+        color:#009966;
+        font-size:200%;
+        font-weight: 800;
+        margin: 0 auto;
+        padding:20px;
+    }
+
+    .description{
+        margin:5px;
+        padding: 7px;
+        width: 80%;
+        border: 1px solid #a9a9a9;
+        box-shadow: 1.5px 1.5px 2px #DDDDDD;
+        font-weight:550;
+        font-size: 120%;
+        line-height: 200%;
+        text-align: center;
+    }
+
+    .des-skill{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color:#FF66FF;
+        font-size: 150%;
+        font-weight: 900;
+    }
+
+    .use{
+        margin:5px;
+        padding: 7px;
+        width: 80%;
+        border: 1px solid #a9a9a9;
+        box-shadow: 1.5px 1.5px 2px #DDDDDD;
+        text-align:center;
+        font-size:110%;
+        font-weight: 800;
+    }
+
+    .howtouse{
+        font-size:130%;
+        padding:0px;
+        margin:10px;
+        border-bottom: 3px solid;
+        display: inline-block;
+    }
+
+    .separate1{
+        width:930px;
+        text-align:center;
+        margin:0px;
+        padding:0px;
+    }
+
+    .main{
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .skill{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color:#FF6600;
+        font-size: 150%;
+        font-weight: 600;
+    }
+
+    .question{
+        font-weight:550;
+        font-size:110%;
+        margin-top:22px;
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+
+    .q{
+        font-weight:600;
+        color: 	#33CC99;
+        font-size:150%;
+    }
+
+    .choices, .choices5{
+        display:inline-block;
+        margin-top:2px;
+        margin-bottom:0px;
+        margin-left:50px;
+        font-size: 100%;
+        font-weight:400;
+    }
+    .choices5-top{
+        display:inline-block;
+        margin-top:2px;
+        margin-bottom:0px;
+        margin-left:50px;
+        font-size: 100%;
+        font-weight:400;
+    }
+
+    p.brackets{
+        padding:0px;
+        margin-left:40px;
+        margin-top:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+
+    .submit{
+        text-align : center;
+    }
+
+    .button{
+        height:30px;
+        width:90px;
+    }
+}
+
+@media screen and (max-width: 959px){
+    .all{
+        width: 99%;
+        font-family:'arial';
+    }
+
+    .all div{
+        margin: 0 auto;
+    }
+
+    .occupation{
+        text-align: center;
+        color:#333333;/*文字色*/
+        padding: 0.5em;/*文字周りの余白*/
+        display: inline-block;
+        line-height: 1.3;/*行高*/
+        background-color:  #BBFFFF;/*背景色*/
+        vertical-align: middle;
+        border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+        box-shadow: 4px 4px 4px #BBBBBB;
+        width:95%;
+        font-size:150%;
+    }
+
+    .occupation:before{
+        content: '●';
+        color: white;/*背景色*/
+        float: left;
+    }
+
+    .num-time{
+        text-align:center;
+        color:#009966;
+        font-size:200%;
+        font-weight: 800;
+        margin: 0 auto;
+        padding:10px;
+    }
+
+    .description{
+        margin:5px;
+        padding: 7px;
+        width: 98%;
+        border: 1px solid #a9a9a9;
+        box-shadow: 1.5px 1.5px 2px #DDDDDD;
+        font-weight:600;
+        font-size: 95%;
+        line-height: 200%;
+    }
+
+    .des-skill{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color:#FF66FF;
+        font-size: 120%;
+        font-weight: 900;
+    }
+
+    .use{
+        margin:5px;
+        padding: 7px;
+        width: 98%;
+        border: 1px solid #a9a9a9;
+        box-shadow: 1.5px 1.5px 2px #DDDDDD;
+        font-weight:600;
+        font-size: 95%;
+        line-height: 200%;
+        text-align:center;
+    }
+
+    .howtouse{
+        font-size:100%;
+        padding:0px;
+        margin:10px;
+        border-bottom: 3px solid;
+        display: inline-block;
+    }
+
+    .separate1{
+        width:100%;
+    }
+
+    .main{
+        padding: 7px;
+        width: 98%;
+    }
+
+    .skill{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color:#FF66FF;
+        font-size: 150%;
+        font-weight: 600;
+    }
+
+    .question{
+        font-weight:600;
+        margin-top:18px;
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+
+    .q{
+        font-weight:700;
+        color:#33CC99;
+        font-size:150%;
+    }
+
+    .choices, .choices5, .choices5-top{
+        font-weight:500;
+        margin-top:2px;
+        margin-bottom:0px;
+        margin-left:10px;
+    }
+
+    p.brackets{
+        padding:0px;
+        margin-left:5px;
+        margin-top:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+    
+    .submit{
+        text-align : center;
+    }
+
+    .button{
+        height:30px;
+        width:90px;
+    }
+
+    
+
+}

@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* ///////logo */
+  .img_lcc {
+    width: 34px;
+    height: 34px;
+  }
+  .logo_a {
+    display: flex;
+  }
+  .img_lcc {
+    margin-top: 8px;
+    padding-right: 8px;
+  }
+  body { 
+    width: 100%;
+  }
+  
+  
+  /* /////////////////////////////////////////////////////////////////////////// */
+  .phone_header {
+    position: fixed;
+    width: 100%;
+  }
+  header {
+    height: 50px;
+    width: 100%;
+    background: rgb(45, 44, 44);
+    font-family: 'Vollkorn', serif;
+    color: #DDD;
+    position:fixed;
+    background-size: cover;
+    top:0;
+    left:0;
+  }
+  .div_ul {
+    padding: 0 22px;
+    
+  }
+  .header_ul {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header_text {
+    color: #DDD;
+    height: 50px;font-size: 18px;
+    margin-top: 14px;
+  }
+    
+    /* /////////////////////////////////////////////////////////////////////////// */
+    /* ハンバーガーボタン */
+    .hamburger {
+      display : block;
+      position: fixed;
+      z-index : 4;
+      right : 13px;
+      top   : 4px;
+      width : 42px;
+      height: 42px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .hamburger span {
+      display : block;
+      position: absolute;
+      width   : 30px;
+      height  : 2px ;
+      left    : 6px;
+      background : #DDD;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition   : 0.3s ease-in-out;
+      transition        : 0.3s ease-in-out;
+    }
+    .hamburger span:nth-child(1) {
+      top: 10px;
+    }
+    .hamburger span:nth-child(2) {
+      top: 20px;
+    }
+    .hamburger span:nth-child(3) {
+      top: 30px;
+    }
+    
+    /* ナビ開いてる時のボタン */
+    .hamburger.active {
+      top   : 8px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition     : all 0.3s ease-in-out;
+      transition        : all 0.3s ease-in-out;
+      -webkit-transition-delay: 0.6s;
+      -o-transition-delay     : 0.6s;
+      transition-delay        : 0.6s;
+      -webkit-transform: rotate(45deg);
+      -ms-transform    : rotate(45deg);
+      -o-transform     : rotate(45deg);
+      transform        : rotate(45deg);
+    }
+    .hamburger.active span:nth-child(2){
+      width: 0px;
+    }
+    .hamburger.active span:nth-child(1),
+    .hamburger.active span:nth-child(3){
+      -webkit-transition-delay: 0.3s;
+      -o-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+    .hamburger.active span:nth-child(1){
+      -webkit-transform: translateY(4px);
+      -ms-transform    : translateY(4px);
+      -o-transform     : translateY(4px);
+      transform        : translateY(4px);
+    }
+    
+    .hamburger.active span:nth-child(3){
+      -webkit-transform: translateY(-16px) rotate(90deg);
+      -ms-transform: translateY(-16px) rotate(90deg);
+      -o-transform : translateY(-16px) rotate(90deg);
+      transform    : translateY(-16px) rotate(90deg);
+    }
+    
+    nav.globalMenuSp {
+      border-bottom: 1px solid #fff;
+      margin-top: -1051px;
+      z-index: 3;
+      top  : 0;
+      left : 0;
+      color: #000;
+      background: rgb(45, 44, 44);
+      text-align: center;
+      transform: translateY(-100%);
+      transition: all 0.9s;
+      width: 100%;
+    }
+    
+    nav.globalMenuSp ul {
+      /* position: relative; */
+      border-top: 1px solid #ddd;
+      background: rgb(45, 44, 44);
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+    }
+    
+    nav.globalMenuSp ul li {
+      list-style-type: none;
+      padding: 0;
+      width: 100%;
+    }
+    nav.globalMenuSp ul li:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    nav.globalMenuSp ul li:hover{
+      background :rgb(34, 34, 34);
+      transition : all 300ms;
+    }
+    
+    nav.globalMenuSp ul li a {
+      display: block;
+      color: #fff;
+      padding: 1em 0;
+      text-decoration :none;
+    }
+    
+    /* このクラスを、jQueryで付与・削除する */
+    nav.globalMenuSp.active {
+      transform: translateY(0%);
+    }
+  
+    .div_ul {
+      padding: 0 22px;
+    }
+    .header_ul {
+      display: flex;
+      list-style: none;
+      height: 50px;
+      justify-content: space-between;
+    }
+    a {
+      text-decoration: none;
+    }
+    .header_text {
+      color: #DDD;
+      height: 50px;font-size: 18px;
+      margin-top: 14px;
+    }
+  .service_all{
+      margin: 3% 0px 4%;
+  }
+  
+
+  .footer_div {
+    background: rgb(45, 44, 44);
+    font-family: 'Vollkorn', serif;
+    color: #DDD;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .Instagram_div {
+    margin: 0 auto;
+  }
+  .Instagram_icon_div {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_p {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  .Instagram_icon_p {
+    font-size: 17px;
+    padding-left: 5px;
+    line-height: 32px;
+  }
+  .Instagram_icon {
+    width: 32px;
+    height: 32px;
+  }
+  .Instagram_icon_a {
+    height: 32px;
+  }
+
+/*タブレット縦*/
+@media screen and (max-width: 1024px){
+    .service_all{
+      width: 85%;
+      margin: 0px auto;
+      padding: 7% 0px 0px;
+    }
+    .service{
+        font-size: 240%;
+    }
+    .service_title{
+        font-size: 200%;
+        padding: 0px 30px;
+    }
+    .br{
+      display: none;
+    }
+    .service_for{
+      font-size: 130%;
+      color: #808080;
+      margin: 0px auto;
+      padding: 1% 0px 0px 3%;
+    }
+    .what_service{
+        width: 85%;
+        margin: 5% auto;
+        border-left: solid 6px #FFA500;
+        background-color: #FFF8DC;
+    }
+    .service_description{
+        font-size: 120%;
+        padding: 1.4% 1.4% 1.4% 2.3%;
+        line-height : 1.8;
+    }
+    .job{
+      width: 85%;
+      padding-bottom: 0.5%;
+      margin: 7% auto;
+      background-color: #F9F8F8;
+    }
+    .job_list{
+      width: 100%;
+      background-color: #DBDBDB;
+    }
+    .job_list img{
+      margin:1.4% 2% 1.4% 2%;
+      height: 4vw;
+      vertical-align: middle;
+    }
+    .job_list span{
+      vertical-align: middle;
+      font-size: 180%;
+    }
+    .job_div{
+      width: 100%;
+      background-color: #EAE8E8;
+    }
+    .job_div img{ 
+      margin:1.4% 2% 1.4% 5%;
+      height: 3.5vw;
+      vertical-align: middle;
+    }
+    .job_div span{
+      vertical-align: middle;
+      font-size: 150%;
+    }
+    .job_type{
+      width: 100%;
+    }
+    .job_type li{
+      margin:2% 0% 2% 10%;
+      font-size: 130%;
+    }
+  }
+  
+  /*スマホ横*/
+  @media screen and (max-width: 896px){
+    .service_all{
+      width: 90%;
+      margin: 0px auto;
+      padding: 10% 0px 0px;
+    }
+    .service{
+        font-size: 220%;
+    }
+    .service_title{
+        font-size: 170%;
+        padding: 0px 20px;
+    }
+    .br{
+      display: none;
+    }
+    .service_for{
+      font-size: 110%;
+      color: #808080;
+      margin: 0px auto;
+      padding: 1% 0px 0px 3%;
+    }
+    .what_service{
+      width: 90%;
+      margin: 4% auto;
+      border-left: solid 6px #FFA500;
+      background-color: #FFF8DC;
+    }
+    .service_description{
+        font-size: 100%;
+        padding: 1.4% 1.4% 1.4% 2.3%;
+        line-height : 1.8;
+    }
+    .job{
+      width: 91.2%;
+      padding-bottom: 0.5%;
+      margin: 7% auto;
+      background-color: #F9F8F8;
+    }
+    .job_list{
+      width: 100%;
+      background-color: #DBDBDB;
+    }
+    .job_list img{
+      margin:1.4% 2% 1.4% 2%;
+      height: 4vw;
+      vertical-align: middle;
+    }
+    .job_list span{
+      vertical-align: middle;
+      font-size: 180%;
+    }
+    .job_div{
+      width: 100%;
+      background-color: #EAE8E8;
+    }
+    .job_div img{ 
+      margin:1.4% 2% 1.4% 5%;
+      height: 3.5vw;
+      vertical-align: middle;
+    }
+    .job_div span{
+      vertical-align: middle;
+      font-size: 150%;
+    }
+    .job_type{
+      width: 100%;
+    }
+    .job_type li{
+      margin:2% 0% 2% 10%;
+      font-size: 130%;
+    }
+  }
+  
+  /*スマホ縦*/
+  @media screen and (max-width: 480px){
+    .service_all{
+      width: 95%;
+      margin: 0px auto;
+      padding: 18% 0px 0px;
+    }
+    .service{
+        font-size: 180%;
+    }
+    .service_title{
+        font-size: 140%;
+        margin-top:2%;
+        padding-left: 7%;
+    }
+    .br{
+      display:inline-block;
+    }
+    .service_for{
+      font-size: 95%;
+      color: #808080;
+      margin: 2% auto;
+      padding: 1% 0px 0px 3%;
+    }
+    .what_service{
+      width: 95%;
+      margin: 5% auto;
+      border-left: solid 6px #FFA500;
+      background-color: #FFF8DC;
+    }
+    .service_description{
+        font-size: 90%;
+        padding: 1.4% 1.4% 1.4% 2.3%;
+        line-height : 1.8;
+    }
+    .job{
+      width: 95.5%;
+      padding-bottom: 0.5%;
+      margin: 8% auto;
+      background-color: #F9F8F8;
+    }
+    .job_list{
+      width: 100%;
+      background-color: #DBDBDB;
+    }
+    .job_list img{
+      margin:1.4% 2% 1.4% 2%;
+      height: 5vw;
+      vertical-align: middle;
+    }
+    .job_list span{
+      vertical-align: middle;
+      font-size: 140%;
+    }
+    .job_div{
+      width: 100%;
+      background-color: #EAE8E8;
+    }
+    .job_div img{ 
+      margin:1.4% 2% 1.4% 5%;
+      height: 4vw;
+      vertical-align: middle;
+    }
+    .job_div span{
+      vertical-align: middle;
+      font-size: 120%;
+    }
+    .job_type{
+      width: 100%;
+    }
+    .job_type li{
+      margin:2% 0% 2% 10%;
+      font-size: 100%;
+    }
+  }

@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION["URL"] = $_SERVER['REQUEST_URI'];
 
 if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
   $_SESSION["URL"] = $_SERVER['REQUEST_URI'];
@@ -15,7 +16,13 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <?php if ($_SESSION["computer"] === "pc") { ?>
+    <link rel="stylesheet" href="home_pc.css">
+    <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+      <link rel="stylesheet" href="home_phone.css">
+  <?php } ?>
     <title>service</title>
 </head>
 <body>

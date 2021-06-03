@@ -1,255 +1,265 @@
 * {
-    padding: 0;
-    margin: 0;
-  
-  }
-  /* ///////logo */
-  .img_lcc {
-    width: 34px;
-    height: 34px;
-    /* background: rgb(45, 44, 44); */
-  }
-  .logo_a {
-    display: flex;
-  }
-  .img_lcc {
-    margin-top: 8px;
-    padding-right: 8px;
-  }
-  
-  
-  /* /////////////////////////////////////////////////////////////////////////// */
-  header {
-    height: 50px;
-    width: 100%;
-    background: rgb(45, 44, 44);
-    font-family: 'Vollkorn', serif;
-    color: #DDD;
-    position:fixed;
-    background-size: cover;
-    top:0;
-    left:0;
-  }
+  padding: 0;
+  margin: 0;
+
+}
+/* ///////logo */
+.img_lcc {
+  width: 34px;
+  height: 34px;
+}
+.logo_a {
+  display: flex;
+}
+.img_lcc {
+  margin-top: 8px;
+  padding-right: 8px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+header {
+  height: 50px;
+  width: 100%;
+  background: rgb(45, 44, 44);
+  font-family: 'Vollkorn', serif;
+  color: #DDD;
+  position:fixed;
+  background-size: cover;
+  top:0;
+  left:0;
+}
+.div_ul {
+  padding: 0 22px;
+}
+.header_ul {
+  display: flex;
+  list-style: none;
+  height: 50px;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+.header_text {
+  color: #DDD;
+  height: 50px;font-size: 18px;
+  margin-top: 14px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* 説明文浮き出し */
+.effect-fade {
+  opacity : 0;
+  transform : translate(0, 45px);
+  transition : all 3000ms;
+}
+.effect-fade.effect-scroll {
+  opacity : 0.9;
+  transform : translate(0, 0);
+}
+
+/* 説明文等のdiv css  image font */
+.description_div {
+  height: 400px;
+  width: 100%;
+  background: url("../../img/coding-924920_640.jpg");
+  margin-top:50px;
+  position: relative;
+  background-size: cover;
+}
+.description_h1 {
+  color: #DDD;
+  font-family: 'Vollkorn', serif;
+  margin: 25px auto;
+}
+.h1_hr {
+  margin: 0 auto;
+  width: 750px;
+}
+.h4_hr {
+  margin: 0 auto;
+  width: 100px;
+}
+.description_h2 {
+  color: #DDD;
+  font-family: 'Vollkorn', serif;
+  margin: 20px auto;
+}
+.description_h3 {
+  color: #DDD;
+  font-family: 'Vollkorn', serif;
+  margin: 20px 100px;
+}
+.description_h4 {
+  color: #DDD;
+  font-family: 'Vollkorn', serif;
+  margin: 20px auto 10px;
+}
+.description_h3_p {
+  color: #DDD;
+  font-family: 'Vollkorn', serif;
+  margin: 10px auto;
+}
+.cover_box {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* 質問表示div css */
+.questions_div {
+  background: white;
+  margin: 20px 20px;
+  font-family: 'Vollkorn', serif;
+}
+.questions_answer_div {
+  background: #f5f5f7;
+  padding: 1px 0;
+  margin-bottom: 20px; 
+}
+.monndaikaiketu_div {
+  margin: 20px 20px;
+}
+.communication_div {
+  margin: 20px 20px;
+}
+.questions_button_div {
+  margin: 40px 20px 40px 50px;
+}
+/* ///////////////////// 質問見出し 選択ボタン*/
+.q_p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: rgb(45, 44, 44);
+}
+.choices {
+  margin: 0 0 2px 30px;
+}
+
+/* /////////////////// 送信ボタン */
+.submit {
+  margin: 40px auto;
+  height: 40px;
+}
+.button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+
+/* //////////////////////   フッターのCSS   */
+.footer_div {
+  background: rgb(45, 44, 44);
+  font-family: 'Vollkorn', serif;
+  color: #DDD;
+  padding-top: 20px;
+  text-align: center;
+}
+.Instagram_div {
+  margin: 0 auto;
+}
+.Instagram_icon_div {
+  display: flex;
+  justify-content: center;
+}
+.footer_p {
+  font-size: 12px;
+  padding: 20px 0;
+}
+.Instagram_icon_p {
+  font-size: 17px;
+  padding-left: 5px;
+  line-height: 32px;
+}
+.Instagram_icon {
+  width: 32px;
+  height: 32px;
+}
+.Instagram_icon_a {
+  height: 32px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 700px){
   .div_ul {
-    padding: 0 22px;
+    margin: 0 12px;
   }
-  .header_ul {
-    display: flex;
-    list-style: none;
-    height: 50px;
-    justify-content: space-between;
+}
+@media screen and (min-width: 800px){
+  .div_ul {
+    margin: 0 26px;
   }
-  a {
-    text-decoration: none;
-  }
-  .header_text {
-    color: #DDD;
-    height: 50px;font-size: 18px;
-    margin-top: 14px;
-  }
-  
-  
-  
-  /* /////////////////////////////////////////////////////////////////////////// */
-  /* 説明文浮き出し */
-  .effect-fade {
-    opacity : 0;
-    transform : translate(0, 45px);
-    transition : all 3000ms;
-  }
-  .effect-fade.effect-scroll {
-    opacity : 0.9;
-    transform : translate(0, 0);
-  }
-  
-  /* 説明文等のdiv css  image font */
-  .description_div {
-    height: 400px;
-    width: 100%;
-    background: url("../../img/coding-924920_640.jpg");
-    /* background: url("images/data-5606639_640.jpg"); */
-    margin-top:50px;
-    position: relative;
-    background-size: cover;
-  }
-  .description_h1 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 25px auto;
-  }
-  .h1_hr {
-    margin: 0 auto;
-    width: 750px;
-  }
-  .h4_hr {
-    margin: 0 auto;
-    width: 100px;
-  }
-  .description_h2 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 20px auto;
-  }
-  .description_h3 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 20px 100px;
-  }
-  .description_h4 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 20px auto 10px;
-  }
-  .description_h3_p {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 10px auto;
-  }
-  .cover_box {
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    text-align: center;
-  }
-  
-  
-  
-  /* /////////////////////////////////////////////////////////////////////////// */
-  /* 質問表示div css */
-  .questions_div {
-    background: white;
-    margin: 20px 20px;
-    font-family: 'Vollkorn', serif;
-  }
-  .questions_answer_div {
-    background: #f5f5f7;
-    padding: 1px 0;
-    margin-bottom: 20px; 
-  }
-  .monndaikaiketu_div {
-    /* height: 100px; */
-    margin: 20px 20px;
-    /* background: rgb(211, 208, 208); */
-  }
-  .communication_div {
-    /* height: 100px; */
-    margin: 20px 20px;
-    /* background: rgb(211, 208, 208); */
-  }
-  .questions_button_div {
-    /* height: 100px; */
-    margin: 40px 20px 40px 50px;
-  }
-  /* ///////////////////// 質問見出し 選択ボタン*/
-  .q_p {
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: rgb(45, 44, 44);
+}
+@media screen and (min-width: 900px){
+  .div_ul {
+    margin: 0 42px;
   }
   .choices {
-    margin: 0 0 2px 30px;
+    display: inline-block;
   }
-  
-  /* /////////////////// 送信ボタン */
-  .submit {
-    margin: 40px auto;
-    height: 40px;
+}
+@media screen and (min-width: 1000px){
+  .div_ul {
+    margin: 0 60px;
   }
-  .button {
-    border: none;
-    width: 150px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    background: #668ad8;/*ボタン色*/
-    color: #FFF;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
+  .questions_button_div {
+    margin: 40px 20px 40px 100px;
   }
-  .button:active {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);/*下に動く*/
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
-    border-bottom: none;
+  .questions_div {
+    margin: 20px 30px;
   }
-  
-  /* //////////////////////   フッターのCSS   */
-  .footer_div {
-     background: rgb(45, 44, 44);
-     font-family: 'Vollkorn', serif;
-     color: #DDD;
-     text-align: center;
+}
+@media screen and (min-width: 1100px){
+  .div_ul {
+    margin: 0 80px;
   }
-  .footer_a {
-    padding-top: 35px;
+}
+@media screen and (min-width: 1200px){
+  .div_ul {
+    margin: 0 102px;
   }
-  .footer_p {
-    padding-top: 35px;
-    padding-bottom: 15px;
+  .description_h3 {
+    margin: 20px 200px;
   }
-  
-  /* /////////////////////////////////////////////////////////////////////////// */
-  @media screen and (min-width: 700px){
-    .div_ul {
-      margin: 0 12px;
-    }
+}
+@media screen and (min-width: 1300px){
+  .div_ul {
+    margin: 0 126px;
   }
-  @media screen and (min-width: 800px){
-    .div_ul {
-      margin: 0 26px;
-    }
+}
+@media screen and (min-width: 1400px){
+  .div_ul {
+    margin: 0 152px;
   }
-  @media screen and (min-width: 900px){
-    .div_ul {
-      margin: 0 42px;
-    }
-    .choices {
+  .description_h3 {
+    margin: 20px 300px;
+  }
+  .choices{
       display: inline-block;
-    }
   }
-  @media screen and (min-width: 1000px){
-    .div_ul {
-      margin: 0 60px;
-    }
-    .questions_button_div {
-      margin: 40px 20px 40px 100px;
-    }
-    .questions_div {
-      margin: 20px 30px;
-    }
+  .questions_div {
+    margin: 20px 40px;
   }
-  @media screen and (min-width: 1100px){
-    .div_ul {
-      margin: 0 80px;
-    }
-  }
-  @media screen and (min-width: 1200px){
-    .div_ul {
-      margin: 0 102px;
-    }
-    .description_h3 {
-      margin: 20px 200px;
-    }
-  }
-  @media screen and (min-width: 1300px){
-    .div_ul {
-      margin: 0 126px;
-    }
-  }
-  @media screen and (min-width: 1400px){
-    .div_ul {
-      margin: 0 152px;
-    }
-    .description_h3 {
-      margin: 20px 300px;
-    }
-    .choices{
-        display: inline-block;
-    }
-    .questions_div {
-      margin: 20px 40px;
-    }
-  }
+}

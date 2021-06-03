@@ -53,25 +53,36 @@
   
 
    /* //////////////////////   フッターのCSS   */
-   .footer_div {
-    background: rgb(45, 44, 44);
-    color: #DDD;
-    text-align: center;
- }
- .footer_a {
-   padding-top: 35px;
- }
- .footer_p {
-   padding-top: 35px;
-   padding-bottom: 15px;
- }
-
- a{
-     color:#DDD;
- }
- a:hover{
-    color : gray;
- }
+.footer_div {
+  background: rgb(45, 44, 44);
+  font-family: 'Vollkorn', serif;
+  color: #DDD;
+  padding-top: 20px;
+  text-align: center;
+}
+.Instagram_div {
+  margin: 0 auto;
+}
+.Instagram_icon_div {
+  display: flex;
+  justify-content: center;
+}
+.footer_p {
+  font-size: 12px;
+  padding: 20px 0;
+}
+.Instagram_icon_p {
+  font-size: 17px;
+  padding-left: 5px;
+  line-height: 32px;
+}
+.Instagram_icon {
+  width: 32px;
+  height: 32px;
+}
+.Instagram_icon_a {
+  height: 32px;
+}
 
  @media screen and (min-width: 1367px){
   .service_all{
