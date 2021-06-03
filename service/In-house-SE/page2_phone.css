@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Vollkorn', serif;
+    list-style: none;
+  }
+  body {
+    background: #fafffa	;
   }
   
   /* ///////logo */
@@ -23,6 +28,7 @@
   .phone_header {
     position: fixed;
     width: 100%;
+    height: 0;
   }
   header {
     height: 50px;
@@ -56,7 +62,7 @@
   
   
   
-  /* ハンバーガーボタン */
+  /*　ハンバーガーボタン　*/
   .hamburger {
     display : block;
     position: fixed;
@@ -128,7 +134,6 @@
   
   nav.globalMenuSp {
     border-bottom: 1px solid #fff;
-    margin-top: -500px;
     z-index : 2;
     top  : 0;
     left : 0;
@@ -175,135 +180,255 @@
     transform: translateY(0%);
   }
   
-  
-  
-  /* /////////////////////////////////////////////////////////////////////////// */
-  /* 説明文浮き出し */
-  .effect-fade {
-    opacity : 0;
-    transform : translate(0, 45px);
-    transition : all 3000ms;
+  /* //動画 画像 */
+  iframe {
+    width: 292px;
   }
-  .effect-fade.effect-scroll {
-    opacity : 0.9;
-    transform : translate(0, 0);
+  .answer_image {
+    width: 292px;
+    height: 150px;
   }
   
-  /* 説明文等のdiv css  image font */
-  .description_div {
-    height: 500px;
-    margin-top: 50px;
-    background: url("../../img/coding-924920_640.jpg");
-    position: relative;
-    background-size: cover;
+  
+  /* //////////////////////////////////   body   */
+  .body_div {
+    margin: 50px 15px;
   }
-  .description_h1 {
-    color: #DDD;
+  .midashi_div {
+    text-align: center;
     font-family: 'Vollkorn', serif;
-    margin: 25px auto;
-    width: 90%;
-    font-size: 20px;
   }
-  .h1_hr {
-    margin: 0 auto;
+  .midashi_h1 {
+    font-weight: 300;
+  }
+  
+  /* //////////////////////////////////   説明div   */
+  .guide_div {
+    height: 250px;
+    width: 100%;
+    background: url("../../img/binary-2907220_1920.jpg");
+  }
+  .cover_box_guide {
+    height: 250px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+  .guide_p_div {
+    padding: 25px 15px;
+  }
+  .white_p {
+    color: white;
+    font-family: 'Vollkorn', serif;
+  }
+  .guide_p_1_div {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .guide_p_2_div {
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 1.7;
+  }
+  
+  /* //////////////////////////////////   チェンジdiv   */
+  .hr_25 {
+    width: 100%;
+    height: 15px;
+    background: #DDD;
+   }
+   .change_ul {
+    text-align: center;
+  }
+  .change_li {
+    cursor: pointer;
+  }
+  .change_li:hover {
+    background: white;
+    color: #B1F9D0;
+    transition : all 300ms;
+  }
+  .change_li.active:hover {
+    background: #B1F9D0;
+  }
+  .change_li.active {
+    background: #9BF9CC;
+    color: rgb(150, 150, 150);
+    transition : all 10ms;
+  }
+  .change_li_p {
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+    font-weight: 900;
+    /* line-height: 2.5; */
+  }
+  .answers_div {
     width: 100%;
   }
-  .h4_hr {
-    margin: 0 auto;
-    width: 100px;
+  .answers {
+    display: none;
   }
-  .description_h2 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 20px auto;
-    font-size: 19px;
+  .answers.active {
+    display: block;
   }
-  .description_h3 {
-    color: #DDD;
+  
+  /* //////////////////////////////////   回答結果表示 answers    */
+  .answer_h2 {
     font-family: 'Vollkorn', serif;
-    width: 90%;
-    margin: 20px auto;
-    font-size: 18px;
-  }
-  .description_h4 {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
-    margin: 20px auto 10px;
-  }
-  .description_h3_p {
-    color: #DDD;
-    font-family: 'Vollkorn', serif;
+    text-align: center;
     margin: 10px auto;
+    font-size: 20px;
+    width: 292px;
+  }
+  .answer_li {
+    margin: 15px auto;
+  }
+  .phone_answer_style {
+    width: 292px;
+    margin: 0px auto;
+  }
+  .answer_book_text {
+    width: 292px;
+    /* height: 250px; */
+    background: #EEEEEE; 
+    margin-top: -41px; 
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    border-color:#AAAAAA;
+    border-style:solid;
+    border-width:0 1px 1px 1px;
+    box-sizing: border-box;
+  }
+  .answer_mov_text {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    width: 292px;
+    /* height: 250px;  */
+    background: #EEEEEE; 
+    margin-top: -6px;
+    border-color:#AAAAAA;
+    border-style:solid;
+    border-width:0 1px 1px 1px;
+    box-sizing: border-box;
+  }
+  .answer_sonota_text {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    width: 292px;
+    /* height: 250px;  */
+    background: #EEEEEE; 
+  }
+  .image_url {
+    width: 292px;
+    height: 150px;
+  }
+  .hr_1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    width: 292px;
+    margin: 0 auto;
   }
   .cover_box {
     position: absolute;
-    height: 500px;
+    width: 292px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: -156px;
+    height: 150px;
+  }
+  
+  /* //// 回答結果表示 text */
+  .answer_text_h3 {
+    font-size: 18px;
+  }
+  .answer_text_h4 {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .answer_text_h4_2 {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .answer_text_p {  
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .text_h3_hr {
+    width: 272px;
+    margin: 0 auto;
+  }
+  .book_h3 {
+    color: #2E8B57	;
+  }
+  .mov_h3 {
+    color: #d52c2c	;
+  }
+  .sonota_h3 {
+    color: #e1c007	;
+  }
+  .hr_25_bottom_20 {
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    height: 21px;
+    background: #DDD;
+    margin-bottom: 20px;
+  }
+  .answer_image_div {
+    margin: 10px;
+  }
+  .answer_image_div_dot_pro {
+    margin: 10px;
+    border: 2px solid #fff;
+  } 
+  .answer_image_a_p {
+    margin: 0 auto;
+    color: #9BF9CC;
+    border-bottom: 1px solid #9BF9CC;
+    width: 272px;
+  }
+  .answer_image_p {
+    font-size: 15px;
+    color: #fff;
+  } 
+  .dot_pro {
+    font-size: 15px;
+  }
+  .answer_image_a_p:hover {
+    color: #444444;
+    background: #CEF9DC;
+    transition : all 100ms;
+  }
+  
+  /* 回答結果 能力がある場合 */
+  .no_answer_li {
+    text-align: center;
+    margin: 0 auto;
+    margin: 10px 0;
+  }
+  
+  /* 回答終了ボタン */
+  .return_button_a {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #fd9535;/*色*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    border: solid 2px #d27d00;/*線色*/
+  }
+  .return_button_a:hover {
+    color: #FFDBC9;
+    transition : all 100ms;
+  }
+  .return_button_div {
     text-align: center;
   }
   
   
   
-  /* /////////////////////////////////////////////////////////////////////////// */
-  /* 質問表示div css */
-  .questions_div {
-    background: white;
-    margin: 20px 20px;
-    font-family: 'Vollkorn', serif;
-  }
-  .questions_answer_div {
-    background: #f5f5f7;
-    padding: 1px 0;
-    margin-bottom: 20px; 
-  }
-  .monndaikaiketu_div {
-    margin: 20px 20px;
-  }
-  .communication_div {
-    margin: 20px 20px;
-  }
-  .questions_button_div {
-    margin: 40px 30px 40px 35px;
-  }
-  /* ///////////////////// 質問見出し 選択ボタン*/
-  .q_p {
-    font-size: 17px;
-    padding-bottom: 10px;
-    color: rgb(70, 70, 70);
-    font-weight: 600;;
-  }
-  .choices {
-    margin: 0 0 15px 0;
-  }
-  
-  /* /////////////////// 送信ボタン */
-  .submit {
-    margin: 40px auto;
-    height: 40px;
-  }
-  .button {
-    font-size: 14px;
-    border: none;
-    width: 150px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    background: #668ad8;/*ボタン色*/
-    color: rgb(62, 62, 62);
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
-  }
-  .button:active {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);/*下に動く*/
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
-    border-bottom: none;
-  }
-  
-  
+  /* //////////////////////   フッターのCSS   */
   .footer_div {
     background: rgb(45, 44, 44);
     font-family: 'Vollkorn', serif;

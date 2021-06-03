@@ -15,7 +15,6 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
   header("Location: http://co-19-216.99sv-coco.com/lcc/user_judge.php");
   exit;
 }
-
 ?>
 
 <!DOCTYPE html>
