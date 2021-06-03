@@ -54,7 +54,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="job_type">
             <ul>
               <li>
-                <a href="" class="job_type_a">フロントエンドエンジニア</a>
+                <a href="http://co-19-246.99sv-coco.com/lcc/service/frontend/page1.php" class="job_type_a">フロントエンドエンジニア</a>
               </li>
               <li>
                 <a href="" class="job_type_a">バックエンドエンジニア</a>
