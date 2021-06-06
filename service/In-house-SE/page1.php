@@ -180,7 +180,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
 
         <!-- 必須スキル・知識の質問 div -->
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; ソフトウェア・ハードウェア・データベースの知識は十分にありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; ある目標に対して、課題や戦略を設定する癖はついていますか？</p>
             <dt class="choices">
                 <input type="radio", name="answer6" value="yes" style="font-size: 50px">はい<br>
             </dt>
@@ -191,7 +191,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; Q6ではいと答えた方は、自分で設定した課題や戦略によって目標を達成できましたか？<br>（&thinsp;Q6でいいえと答えた方はいいえを選択してください&thinsp;）</p>
             <dt class="choices">
                   <input type="radio", name="answer7" value="1">未経験<br>
               </dt>
