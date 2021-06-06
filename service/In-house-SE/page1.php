@@ -434,7 +434,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       if((document.form.answer1.value == "")||(document.form.answer2.value == "")||(document.form.answer3.value == "")||(document.form.answer4.value == "")||(document.form.answer5.value == "")
       ||(document.form.answer6.value == "")||(document.form.answer7.value == "")||(document.form.answer8.value == "")||(document.form.answer9.value == "")||(document.form.answer10.value == "")
       ||(document.form.answer11.value == "")||(document.form.answer12.value == "")||(document.form.answer13.value == "")||(document.form.answer14.value == "")||(document.form.answer15.value == "")
-      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer11.value == "")||(document.form.answer12.value == ""))
+      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == ""))
       {
           flag = 1;
       }
