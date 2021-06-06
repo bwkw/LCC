@@ -23,7 +23,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       <link rel="stylesheet" href="home_phone.css">
   <?php } ?>
   
-  <title>HOME</title>
+  <title>Home</title>
 </head>
 <body>
   <!-- header用div -->

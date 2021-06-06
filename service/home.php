@@ -23,7 +23,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
     <?php } elseif ($_SESSION["computer"] === "phone") { ?>
       <link rel="stylesheet" href="home_phone.css">
     <?php } ?>
-    <title>service</title>
+    <title>Service</title>
 </head>
 <body>
 
@@ -57,31 +57,31 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                 <a href="http://co-19-246.99sv-coco.com/lcc/service/frontend/page1.php" class="job_type_a">フロントエンドエンジニア</a>
               </li>
               <li>
-                <a href="" class="job_type_a">バックエンドエンジニア</a>
+                <a href="" class="job_type_a">バックエンドエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">データベースエンジニア</a>
+                <a href="" class="job_type_a">データベースエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">ネットワークエンジニア</a>
+                <a href="" class="job_type_a">ネットワークエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">サーバーエンジニア</a>
+                <a href="" class="job_type_a">サーバーエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">組み込み系/IOTエンジニア</a>
+                <a href="" class="job_type_a">組み込み系/IOTエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">アプリケーションエンジニア</a>
+                <a href="" class="job_type_a">アプリケーションエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">クラウドエンジニア</a>
+                <a href="" class="job_type_a">クラウドエンジニア（作成中）</a>
               </li>
               <li>
                 <a href="http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page1.php" class="job_type_a">社内SE</a>
               </li>
               <li>
-                <a href="" class="job_type_a">Webデザイナー</a>
+                <a href="" class="job_type_a">Webデザイナー（作成中）</a>
               </li>
             </ul>
           </div>
@@ -93,10 +93,10 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="job_type">
             <ul>
               <li>
-                <a href="" class="job_type_a">セールスエンジニア</a>
+                <a href="" class="job_type_a">セールスエンジニア（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">ITコンサルタント</a>
+                <a href="" class="job_type_a">ITコンサルタント（作成中）</a>
               </li>
             </ul>
           </div>
@@ -108,10 +108,10 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="job_type">
             <ul>
               <li>
-                <a href="" class="job_type_a">Webマーケター</a>
+                <a href="" class="job_type_a">Webマーケター（作成中）</a>
               </li>
               <li>
-                <a href="" class="job_type_a">データアナリスト</a>
+                <a href="" class="job_type_a">データアナリスト（作成中）</a>
               </li>
             </ul>
           </div>
