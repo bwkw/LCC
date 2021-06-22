@@ -1,12 +1,12 @@
 <?php
-$occupation = "社内SE";
+$occupation = "ITコンサルタント";
 session_start();
 $_SESSION["array"] = "";
 $_SESSION["URL"] = $_SERVER['REQUEST_URI'];
 
 if (isset($_POST["answer_send"])) {
   $_SESSION["array"] = $_POST;
-  header("Location: http://co-19-216.99sv-coco.com/lcc/service/In-house-SE/page2.php");
+  header("Location: http://co-19-216.99sv-coco.com/lcc/service/IT-consultant/page2.php");
   exit;
 }
 
@@ -180,7 +180,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
 
         <!-- 必須スキル・知識の質問 div -->
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; ITの基礎的な知識は備わっていますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; ソフトウェア・ハードウェア・データベースの知識は十分にありますか？</p>
             <dt class="choices">
                 <input type="radio", name="answer6" value="yes" style="font-size: 50px">はい<br>
             </dt>
@@ -434,7 +434,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       if((document.form.answer1.value == "")||(document.form.answer2.value == "")||(document.form.answer3.value == "")||(document.form.answer4.value == "")||(document.form.answer5.value == "")
       ||(document.form.answer6.value == "")||(document.form.answer7.value == "")||(document.form.answer8.value == "")||(document.form.answer9.value == "")||(document.form.answer10.value == "")
       ||(document.form.answer11.value == "")||(document.form.answer12.value == "")||(document.form.answer13.value == "")||(document.form.answer14.value == "")||(document.form.answer15.value == "")
-      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == ""))
+      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer11.value == "")||(document.form.answer12.value == ""))
       {
           flag = 1;
       }
