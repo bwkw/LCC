@@ -180,7 +180,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
 
         <!-- 必須スキル・知識の質問 div -->
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; ITの基礎的な知識は備わっていますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; 「基本情報技術者試験」という資格を持っていますか？</p>
             <dt class="choices">
                 <input type="radio", name="answer6" value="yes" style="font-size: 50px">はい<br>
             </dt>
@@ -191,15 +191,12 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; 「応用情報技術者試験」という資格を持っていますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer7" value="1">未経験<br>
-              </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer7" value="2">基礎的な部分は学習済<br>
-              </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer7" value="3">実務レベル<br>
+                <input type="radio", name="answer7" value="yes" style="font-size: 50px">はい<br>
+            </dt>
+            <dt class="choices">
+                <input type="radio", name="answer7" value="no">いいえ<br>
             </dt>
           </dl>
         </div>
@@ -280,6 +277,20 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </dt>
             <dt class="choices">
                 <input type="radio", name="answer11" value="5">実務レベル<br>
+            </dt>
+          </dl>
+        </div>
+
+        <div class="questions_button_div">
+          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
+            <dt class="choices">
+                  <input type="radio", name="answer7" value="1">未経験<br>
+              </dt>
+              <dt class="choices">
+                  <input type="radio", name="answer7" value="2">基礎的な部分は学習済<br>
+              </dt>
+              <dt class="choices">
+                  <input type="radio", name="answer7" value="3">実務レベル<br>
             </dt>
           </dl>
         </div>
