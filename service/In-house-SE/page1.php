@@ -125,55 +125,140 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q1</span>.&nbsp;&nbsp;スポーツ/勉強で行き詰まったことはありますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer1", value="yes", >はい<br>
+              <label>
+                <input type="radio", name="answer1", value="5">何度もある<br>
+              </label>
             </dt>
             <dt class="choices">
-                  <input type="radio", name="answer1", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer1", value="4">何回かある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer1", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer1", value="2">あまりない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer1", value="1">全くない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q2</span>.&nbsp;&nbsp;Q1ではいと答えた方は、その壁を乗り越える事はできましたか？<br>（&thinsp;Q1でいいえと答えた方はいいえを選択してください&thinsp;）</p>
-              <dt class="choices">
-                  <input type="radio", name="answer2", value="yes", >はい<br>
-              </dt>
-              <dt class="choices">   
-                  <input type="radio", name="answer2", value="no">いいえ<br>
-              </dt>
-            </dl>
+          <dl class="question"><p class="q_p"><span class="q">Q2</span>.&nbsp;&nbsp;Q1で「何度もある」/「何回かある」と答えた方は、その壁を乗り越える事はできましたか？<br>（&thinsp;Q1で「どちらとも言えない」/「あまりない」/「全くない」と答えた方は「いいえ」を選択してください&thinsp;）</p>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer2", value="5">はい<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer2", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer2", value="1">「<br>
+              </label>
+            </dt>
+          </dl>
         </div>
 
         <!-- コミュニケーション能力の質問 div -->
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q3</span>.&nbsp;&nbsp;あまり親しくない人といるときでも間を持たずに話が出来ますか？話を続けられますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer3", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer3", value="5">結構出来る/自信がある<br>
+              </label>
             </dt>
             <dt class="choices">
-                  <input type="radio", name="answer3", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer3", value="4">ある程度出来る<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer3", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer3", value="2">あまり出来ない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer3", value="1">出来ない/苦手だ<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q4</span>.&nbsp;&nbsp;他人の言っていることをきちんと理解できないことがありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q4</span>.&nbsp;&nbsp;相手の言っていることをきちんと理解出来ますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer4", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer4", value="5">理解出来る<br>
+              </label>
             </dt>
             <dt class="choices">
-                  <input type="radio", name="answer4", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer4", value="4">大体理解出来る<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer4", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer4", value="2">理解出来ないことがある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer4", value="1">理解出来ない/理解するのが苦手だ<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q5</span>.&nbsp;&nbsp;自分の言っていることが他人に伝わらないことがありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q5</span>.&nbsp;&nbsp;自分の発言は相手にきちんと伝わりますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer5", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer5", value="5">伝わる<br>
+              </label>
             </dt>
             <dt class="choices">
-                  <input type="radio", name="answer5", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer5", value="4">大体伝わる<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer5", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer5", value="2">伝わらないことがある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer5", value="1">伝わらない<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -182,10 +267,14 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q6</span>.&nbsp;&nbsp; 「基本情報技術者試験」という資格を持っていますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer6" value="yes" style="font-size: 50px">はい<br>
+              <label>
+                <input type="radio", name="answer6", value="3">持っている<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer6" value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer6", value="1">持っていない<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -193,10 +282,14 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; 「応用情報技術者試験」という資格を持っていますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer7" value="yes" style="font-size: 50px">はい<br>
+              <label>
+                <input type="radio", name="answer7", value="3">持っている<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer7" value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer7", value="1">持っていない<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -204,19 +297,29 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q8</span>.&nbsp;&nbsp; PHPを触った経験はありますか？</p>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer8" value="1">未経験<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer8" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              </label>
             </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer8" value="3">基礎的な部分は学習済<br>
-              </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer8" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer8" value="3">基礎的な部分は学習済<br>
+              </label>
             </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer8" value="5">実務レベル<br>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer8" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer8" value="5">実務レベル<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -224,19 +327,29 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q9</span>.&nbsp;&nbsp; Pythonを触った経験はありますか？</p>
             <dt class="choices">
-              <input type="radio", name="answer9" value="1">未経験<br>
+              <label>
+                <input type="radio", name="answer9" value="1">未経験<br>
+              </label>
             </dt>
             <dt class="choices">
-              <input type="radio", name="answer9" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              <label>
+                <input type="radio", name="answer9" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              </label>
             </dt>
             <dt class="choices">
-              <input type="radio", name="answer9" value="3">基礎的な部分は学習済<br>
+              <label>
+                <input type="radio", name="answer9" value="3">基礎的な部分は学習済<br>
+              </label>
             </dt>
             <dt class="choices">
-              <input type="radio", name="answer9" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              <label>
+                <input type="radio", name="answer9" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              </label>
             </dt>
             <dt class="choices">
-              <input type="radio", name="answer9" value="5">実務レベル<br>
+              <label>
+                <input type="radio", name="answer9" value="5">実務レベル<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -244,19 +357,29 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q10</span>.&nbsp;&nbsp; javaを触った経験はありますか？</p>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer10" value="1">未経験<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer10" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer10" value="3">基礎的な部分は学習済<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer10" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer10" value="5">実務レベル<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -264,122 +387,366 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         <div class="questions_button_div">
           <dl class="question"><p class="q_p"><span class="q">Q11</span>.&nbsp;&nbsp; C言語を触った経験はありますか？</p>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer11" value="1">未経験<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer11" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer11" value="3">基礎的な部分は学習済<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer11" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              </label>
             </dt>
             <dt class="choices">
+              <label>
                 <input type="radio", name="answer11" value="5">実務レベル<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q7</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q12</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer7" value="1">未経験<br>
-              </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer7" value="2">基礎的な部分は学習済<br>
-              </dt>
-              <dt class="choices">
-                  <input type="radio", name="answer7" value="3">実務レベル<br>
+              <label>
+                <input type="radio", name="answer12" value="1">未経験<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer12" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer12" value="3">基礎的な部分は学習済<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer12" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer12" value="5">実務レベル<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q12</span>.&nbsp;&nbsp; ある目標に対して、課題や戦略を設定する癖はついていますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q13</span>.&nbsp;&nbsp; ネットワークについての知識はありますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer12", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer13", value="5">十分知識がある<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer12", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer13", value="4">ある程度の知識はある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer13", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer13", value="2">あまり知識がない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer13", value="1">知識が全くない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q13</span>.&nbsp;&nbsp; Q13ではいと答えた方は、自分で設定した課題や戦略によって目標を達成できましたか？<br>（&thinsp;Q13でいいえと答えた方はいいえを選択してください&thinsp;）</p>
+          <dl class="question"><p class="q_p"><span class="q">Q14</span>.&nbsp;&nbsp; サーバーについての知識はありますか？</p>
             <dt class="choices">
-                  <input type="radio", name="answer13", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer14", value="5">十分知識がある<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer13", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer14", value="4">ある程度の知識はある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer14", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer14", value="2">あまり知識がない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer14", value="1">知識が全くない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q14</span>.&nbsp;&nbsp; 計画を立てても思い通りにいかないことがありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q15</span>.&nbsp;&nbsp; セキュリティについての知識はありますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer14", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer15", value="5">十分知識がある<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer14", value="no">いいえ<br>
+              <label>
+                <input type="radio", name="answer15", value="4">ある程度の知識はある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer15", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer15", value="2">あまり知識がない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer15", value="1">知識が全くない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q15</span>.&nbsp;&nbsp; プレゼンの作成に躓いたことがある/聴衆を引きつけるプレゼンの資料作成を知らない</p>
+          <dl class="question"><p class="q_p"><span class="q">Q16</span>.&nbsp;&nbsp; 設計をした経験はありますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer15", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer16", value="5">何度もある<br>
+              </label>
             </dt>
-            <dt class="choices">        
-                <input type="radio", name="answer15", value="no">いいえ<br>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer16", value="4">何回かある<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer16", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer16", value="2">あまりない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer16", value="1">全くない<br>
+              </label>
+            </dt>
+          </dl>
+        </div>
+
+
+        <div class="questions_button_div">
+          <dl class="question"><p class="q_p"><span class="q">Q17</span>.&nbsp;&nbsp; ある目標に対して、きちんと課題や戦略を設定していますか？</p>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer17", value="5">毎回する<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer17", value="4">大体するようにしている<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer17", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer17", value="2">あまりしない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer17", value="1">全くしない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q16</span>.&nbsp;&nbsp; プレゼンでうまく話せないことがある/プレゼンでの聴衆を惹きつける話し方を知らない</p>
+          <dl class="question"><p class="q_p"><span class="q">Q18</span>.&nbsp;&nbsp; Q17で「毎回する」/「大体するようにしている」と答えた方は、自分で設定した課題や戦略によって目標を達成できましたか？<br>（&thinsp;Q17で「どちらとも言えない」/「あまりしない」/「全くしない」と答えた方は「いいえ」を選択してください&thinsp;）</p>
             <dt class="choices">
-                <input type="radio", name="answer16", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer18", value="5">はい<br>
+              </label>
             </dt>
-            <dt class="choices">        
-                <input type="radio", name="answer16", value="no">いいえ<br>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer18", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer18", value="1">いいえ<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q17</span>.&nbsp;&nbsp; 物事を論理的に考える事は出来ますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q19</span>.&nbsp;&nbsp; 計画を立てて、予定通りに物事を進められますか？</p>
             <dt class="choices">
-                <input type="radio", name="answer17", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer19", value="5">いつも進められる<br>
+              </label>
             </dt>
-            <dt class="choices">        
-                <input type="radio", name="answer17", value="no">いいえ<br>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer19", value="4">大体進められる<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer19", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer19", value="2">あまり進められない/計画をあまり立てない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer19", value="1">全く進められない/計画を全く立てない<br>
+              </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q18</span>.&nbsp;&nbsp; ヒアリング能力に自信がありますか？(ヒアリング能力を知らない方はいいえを選んでください)</p>
+          <dl class="question"><p class="q_p"><span class="q">Q20</span>.&nbsp;&nbsp; プレゼンの作成に躓いたことがある/聴衆を引きつけるプレゼンの資料作成を知らない</p>
             <dt class="choices">
-                <input type="radio", name="answer18", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer20", value="1">はい<br>
+              </label>
             </dt>
-            <dt class="choices">        
-                <input type="radio", name="answer18", value="no">いいえ<br>
+            <dt class="choices">
+              <label>      
+                <input type="radio", name="answer20", value="3">いいえ<br>
+              </label>
             </dt>
           </dl>
         </div>
 
-        <!-- 最後のフロントエンドエンジニアに対しての質問 div -->
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q19</span>.&nbsp;&nbsp; <?php echo $occupation; ?>向けの見ておくべきコンテンツを知りたいですか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q21</span>.&nbsp;&nbsp; プレゼンでうまく話せないことがある/プレゼンでの聴衆を惹きつける話し方を知らない</p>
             <dt class="choices">
-                <input type="radio", name="answer19", value="yes">はい<br>
+              <label>
+                <input type="radio", name="answer21", value="1">はい<br>
+              </label>
             </dt>
             <dt class="choices">
-                <input type="radio", name="answer19", value="no">いいえ<br>
+              <label>      
+                <input type="radio", name="answer21", value="3">いいえ<br>
+              </label>
+            </dt>
+          </dl>
+        </div>
+
+        <div class="questions_button_div">
+          <dl class="question"><p class="q_p"><span class="q">Q22</span>.&nbsp;&nbsp; 物事を論理的に考える事は出来ますか？</p>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer22", value="5">いつも出来ている<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer22", value="4">大体出来る<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer22", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer22", value="2">あまり出来ない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer22", value="1">全く出来ない<br>
+              </label>
+            </dt>
+          </dl>
+        </div>
+
+        <div class="questions_button_div">
+          <dl class="question"><p class="q_p"><span class="q">Q23</span>.&nbsp;&nbsp; ヒアリング能力は持っていますか？</p>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer23", value="5">持っている<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer23", value="4">おそらく持っていると思う<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer23", value="3">どちらとも言えない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer23", value="2">持っている自信はない<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer23", value="1">そもそもヒアリング能力を知らない/持ってない<br>
+              </label>
+            </dt>
+          </dl>
+        </div>
+
+        <!-- 最後の社内SEに対しての質問 div -->
+        <div class="questions_button_div">
+          <dl class="question"><p class="q_p"><span class="q">Q24</span>.&nbsp;&nbsp; <?php echo $occupation; ?>向けの見ておくべきコンテンツを知りたいですか？</p>
+            <dt class="choices">
+              <label>
+                <input type="radio", name="answer24", value="yes">はい<br>
+              </label>
+            </dt>
+            <dt class="choices">
+              <label>      
+                <input type="radio", name="answer24", value="no">いいえ<br>
+              </label>
             </dt>
           </dl>
         </div>
@@ -445,7 +812,8 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       if((document.form.answer1.value == "")||(document.form.answer2.value == "")||(document.form.answer3.value == "")||(document.form.answer4.value == "")||(document.form.answer5.value == "")
       ||(document.form.answer6.value == "")||(document.form.answer7.value == "")||(document.form.answer8.value == "")||(document.form.answer9.value == "")||(document.form.answer10.value == "")
       ||(document.form.answer11.value == "")||(document.form.answer12.value == "")||(document.form.answer13.value == "")||(document.form.answer14.value == "")||(document.form.answer15.value == "")
-      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == ""))
+      ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == "")||(document.form.answer20.value == "")
+      ||(document.form.answer21.value == "")||(document.form.answer22.value == "")||(document.form.answer23.value == "")||(document.form.answer24.value == ""))
       {
           flag = 1;
       }
