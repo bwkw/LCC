@@ -42,15 +42,15 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       <?php } elseif ($_SESSION["computer"] === "phone") { ?>
         <h1 class="description_h1 effect-fade"><?php echo $occupation; ?>を<br>目指すための自己分析<hr class="h1_hr"></h1>
       <?php } ?>
-      <h2 class="description_h2 effect-fade">全34問<span> </span>約10分</h2>
+      <h2 class="description_h2 effect-fade">全33問<span> </span>約10分</h2>
       <h3 class="description_h3 effect-fade"><?php echo $occupation; ?>に必須なスキルをあなたは持っていますか？
         この質問は<?php echo $occupation; ?>になる上で、あなたの不足したスキルを特定するものです。
         周りから一歩前進し、あなたも優秀な人材に！</h3>
       <h3 class="description_h3 effect-fade">--使用法--<hr class="h4_hr"></h3>
       <?php if ($_SESSION["computer"] === "pc") { ?>
-        <p class="description_h3_p effect-fade">Q１-- Q３４の質問に答え、結果を送信を押してください。</p>
+        <p class="description_h3_p effect-fade">Q１-- Q３３の質問に答え、結果を送信を押してください。</p>
       <?php } elseif ($_SESSION["computer"] === "phone") { ?>
-        <p class="description_h3_p effect-fade">Q１-- Q３４の質問に答え<br>結果を送信を押してください。</p>
+        <p class="description_h3_p effect-fade">Q１-- Q３３の質問に答え<br>結果を送信を押してください。</p>
       <?php } ?>
       <p class="description_h3_p effect-fade">(全ての質問に回答するようにお願いします)</p>
     </div>
@@ -766,7 +766,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q24</span>.&nbsp;&nbsp; Pythonを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q24</span>.&nbsp;&nbsp; javaを触った経験はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer24" value="1">未経験<br>
@@ -796,7 +796,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q25</span>.&nbsp;&nbsp; javaを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q25</span>.&nbsp;&nbsp; C言語を触った経験はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer25" value="1">未経験<br>
@@ -826,7 +826,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q26</span>.&nbsp;&nbsp; C言語を触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q26</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer26" value="1">未経験<br>
@@ -849,44 +849,44 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer6" value="5">実務レベル<br>
+                <input type="radio", name="answer26" value="5">実務レベル<br>
               </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q27</span>.&nbsp;&nbsp; データベースを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q27</span>.&nbsp;&nbsp; ネットワークについての知識はありますか？</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer27" value="1">未経験<br>
+                <input type="radio", name="answer27", value="5">十分知識がある<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer27" value="2">学校の授業で習った程度/軽く触ったことがある程度<br>
+                <input type="radio", name="answer27", value="4">ある程度の知識はある<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer27" value="3">基礎的な部分は学習済<br>
+                <input type="radio", name="answer27", value="3">どちらとも言えない<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer27" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+                <input type="radio", name="answer27", value="2">あまり知識がない<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer27" value="5">実務レベル<br>
+                <input type="radio", name="answer27", value="1">知識が全くない<br>
               </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q28</span>.&nbsp;&nbsp; ネットワークについての知識はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q28</span>.&nbsp;&nbsp; サーバーについての知識はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer28", value="5">十分知識がある<br>
@@ -916,7 +916,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q29</span>.&nbsp;&nbsp; サーバーについての知識はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q29</span>.&nbsp;&nbsp; セキュリティについての知識はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer29", value="5">十分知識がある<br>
@@ -946,15 +946,15 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q30</span>.&nbsp;&nbsp; セキュリティについての知識はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q30</span>.&nbsp;&nbsp; 設計をした経験はありますか？</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer30", value="5">十分知識がある<br>
+                <input type="radio", name="answer30", value="5">何度もある<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer30", value="4">ある程度の知識はある<br>
+                <input type="radio", name="answer30", value="4">何回かある<br>
               </label>
             </dt>
             <dt class="choices">
@@ -964,72 +964,42 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer30", value="2">あまり知識がない<br>
+                <input type="radio", name="answer30", value="2">あまりない<br>
               </label>
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer30", value="1">知識が全くない<br>
-              </label>
-            </dt>
-          </dl>
-        </div>
-
-        <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q31</span>.&nbsp;&nbsp; 設計をした経験はありますか？</p>
-            <dt class="choices">
-              <label>
-                <input type="radio", name="answer31", value="5">何度もある<br>
-              </label>
-            </dt>
-            <dt class="choices">
-              <label>
-                <input type="radio", name="answer31", value="4">何回かある<br>
-              </label>
-            </dt>
-            <dt class="choices">
-              <label>
-                <input type="radio", name="answer31", value="3">どちらとも言えない<br>
-              </label>
-            </dt>
-            <dt class="choices">
-              <label>
-                <input type="radio", name="answer31", value="2">あまりない<br>
-              </label>
-            </dt>
-            <dt class="choices">
-              <label>
-                <input type="radio", name="answer31", value="1">全くない<br>
+                <input type="radio", name="answer30", value="1">全くない<br>
               </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q32</span>.&nbsp;&nbsp; プレゼンの作成に躓いたことがある/聴衆を引きつけるプレゼンの資料作成を知らない</p>
+          <dl class="question"><p class="q_p"><span class="q">Q31</span>.&nbsp;&nbsp; プレゼンの作成に躓いたことがある/聴衆を引きつけるプレゼンの資料作成を知らない</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer32", value="1">はい<br>
+                <input type="radio", name="answer31", value="3">はい<br>
               </label>
             </dt>
             <dt class="choices">
               <label>      
-                <input type="radio", name="answer32", value="3">いいえ<br>
+                <input type="radio", name="answer31", value="5">いいえ<br>
               </label>
             </dt>
           </dl>
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q33</span>.&nbsp;&nbsp; プレゼンでうまく話せないことがある/プレゼンでの聴衆を惹きつける話し方を知らない</p>
+          <dl class="question"><p class="q_p"><span class="q">Q32</span>.&nbsp;&nbsp; プレゼンでうまく話せないことがある/プレゼンでの聴衆を惹きつける話し方を知らない</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer33", value="1">はい<br>
+                <input type="radio", name="answer32", value="3">はい<br>
               </label>
             </dt>
             <dt class="choices">
               <label>      
-                <input type="radio", name="answer33", value="3">いいえ<br>
+                <input type="radio", name="answer32", value="5">いいえ<br>
               </label>
             </dt>
           </dl>
@@ -1037,15 +1007,15 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
 
         <!-- 最後の社内SEに対しての質問 div -->
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q34</span>.&nbsp;&nbsp; <?php echo $occupation; ?>向けの見ておくべきコンテンツを知りたいですか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q33</span>.&nbsp;&nbsp; <?php echo $occupation; ?>向けの見ておくべきコンテンツを知りたいですか？</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer34", value="yes">はい<br>
+                <input type="radio", name="answer33", value="yes">はい<br>
               </label>
             </dt>
             <dt class="choices">
               <label>      
-                <input type="radio", name="answer34", value="no">いいえ<br>
+                <input type="radio", name="answer33", value="no">いいえ<br>
               </label>
             </dt>
           </dl>
@@ -1115,7 +1085,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       ||(document.form.answer16.value == "")||(document.form.answer17.value == "")||(document.form.answer18.value == "")||(document.form.answer19.value == "")||(document.form.answer20.value == "")
       ||(document.form.answer21.value == "")||(document.form.answer22.value == "")||(document.form.answer23.value == "")||(document.form.answer24.value == "")||(document.form.answer25.value == "")
       ||(document.form.answer26.value == "")||(document.form.answer27.value == "")||(document.form.answer28.value == "")||(document.form.answer29.value == "")||(document.form.answer30.value == "")
-      ||(document.form.answer31.value == "")||(document.form.answer32.value == "")||(document.form.answer33.value == "")||(document.form.answer34.value == ""))
+      ||(document.form.answer31.value == "")||(document.form.answer32.value == "")||(document.form.answer33.value == ""))
       {
           flag = 1;
       }
