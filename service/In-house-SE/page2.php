@@ -116,6 +116,27 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
       </div>
     </div>
 
+    <!-- レベルを可視化 -->
+    <?php
+      $num = count($_SESSION["array"]);
+      $sum = 5*($num-2);
+      $your_sum = 0;
+      for($i=1; $i<$num-1; $i++)
+      {
+        $your_sum += (int)($_SESSION["array"]["answer".$i]);
+      }
+      $exclude_from_sum = (int)($_SESSION["array"]["answer1"])+(int)($_SESSION["array"]["answer9"]);
+      $your_sum -= $exclude_from_sum;
+      $your_percentage = $your_sum/$sum * 100;
+    ?>
+
+    <div>
+      <h1 style="margin: 10px 0px; text-align: center;">あなたの<?php echo $occupation; ?>としてのレベルは、<span style="color: red;"><?php echo $your_percentage; ?></span>です。</h1>
+      <div class="bar_all" style="width:80%; height:5vh; margin:10px auto; background-color:#EEEEEE;">
+          <div class="your_percentage" style="width:<?php echo $your_percentage ?>%; height:5vh; background-color: #77F9C3; position: relative;"><div style="position: absolute; right: 5px; bottom: 0;"><?php echo $your_percentage; ?></div></div>
+          <div class="the_rest_of_percentage" style="position: relative;"><div style="position: absolute; right: 5px; bottom: 0;">100</div></div>
+      </div>
+    <div>
     
     <!-- //////////////// 回答結果切替 //////////////////  -->
     <div class="change_div">
