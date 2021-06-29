@@ -979,7 +979,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <dl class="question"><p class="q_p"><span class="q">Q31</span>.&nbsp;&nbsp; プレゼンの作成に躓いたことがある/聴衆を引きつけるプレゼンの資料作成を知らない</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer31", value="3">はい<br>
+                <input type="radio", name="answer31", value="1">はい<br>
               </label>
             </dt>
             <dt class="choices">
@@ -994,7 +994,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <dl class="question"><p class="q_p"><span class="q">Q32</span>.&nbsp;&nbsp; プレゼンでうまく話せないことがある/プレゼンでの聴衆を惹きつける話し方を知らない</p>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer32", value="3">はい<br>
+                <input type="radio", name="answer32", value="1">はい<br>
               </label>
             </dt>
             <dt class="choices">
