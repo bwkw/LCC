@@ -29,6 +29,10 @@ iframe {
   width: 516px;
   height: 250px;
 }
+table{
+  width: 516px;
+  height: 254px;
+}
 /* 本 */
 .book_table_div {
   border-radius:.75rem;
