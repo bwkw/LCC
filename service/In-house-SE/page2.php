@@ -204,6 +204,12 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="monndai">
             <h2 class="answer_h2">問題解決能力</h2>
             <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                社内SEの現場では、日々問題が発生します。そのため、いついかなる時も「問題解決能力」というものは重要視されます。ただ、「問題解決能力」を意識して向上させようとした経験がある方はあまりいないのではないでしょうか？「問題解決能力」はセンスではなく、努力次第で向上させることが出来るものです。是非この機会に、自分の「問題解決能力」を確認し、向上させましょう！
+              </div>
+            </div>
+           
             <ul class="answer_ul">
               
               <?php if($your_solving_problem_percentage>=75) {?>
@@ -264,6 +270,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                   </div>
                 </li>
               <?php }?>
+
             </ul>
           </div>
           <div class="hr_25_bottom_20"></div>
@@ -274,6 +281,12 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="monndai">
             <h2 class="answer_h2">コミュニケーション能力</h2>
             <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                社内SEの仕事は一日中パソコンに向かって行う作業であると思っている人が多いと思いますが、実はその認識は誤りです。コーディングや設計書の作成は一人で取り組むものではなく、チーム内での作業分担、チームメンバーでの仕事の方針のすり合わせ、仕事の進捗の共有など多くのコミュニケーションを必要とします。ただ、IT知識や技術があれば良いと思っている方はその認識を改め、是非この機会に、自分の「コミュニケーション能力」を向上させましょう！ 
+              </div>
+            </div>
+            
             <ul class="answer_ul">
               
               <?php if($your_communication_percentage>=75) {?>
@@ -333,11 +346,31 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+
               <?php }?>
             </ul>
           </div>
           <div class="hr_25_bottom_20"></div>
         <?php }?>
+
+        <!-- PHP -->
+
+        <!-- java -->
+
+        <!-- C言語 -->
+
+        <!-- データベース -->
+
+        <!-- ネットワーク -->
+
+        <!-- サーバー -->
+        
+        <!-- セキュリティ -->
+
+        <!-- 設計 -->
+
+        <!-- プレゼン能力 -->
+
       </div>
 
       <!-- 短所 -->
@@ -348,6 +381,12 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="monndai">
             <h2 class="answer_h2">問題解決能力</h2>
             <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                社内SEの現場では、日々問題が発生します。そのため、いついかなる時も「問題解決能力」というものは重要視されます。ただ、「問題解決能力」を意識して向上させようとした経験がある方はあまりいないのではないでしょうか？「問題解決能力」はセンスではなく、努力次第で向上させることが出来るものです。是非この機会に、自分の「問題解決能力」を確認し、向上させましょう！
+              </div>
+            </div>
+    
             <ul class="answer_ul">
             
               <?php if($your_solving_problem_percentage<25) {?>
@@ -408,6 +447,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                   </div>
                 </li>
               <?php }?>
+
             </ul>
           </div>
           <div class="hr_25_bottom_20"></div>
@@ -418,6 +458,12 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
           <div class="monndai">
             <h2 class="answer_h2">コミュニケーション能力</h2>
             <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                社内SEの仕事は一日中パソコンに向かって行う作業であると思っている人が多いと思いますが、実はその認識は誤りです。コーディングや設計書の作成は一人で取り組むものではなく、チーム内での作業分担、チームメンバーでの仕事の方針のすり合わせ、仕事の進捗の共有など多くのコミュニケーションを必要とします。ただ、IT知識や技術があれば良いと思っている方はその認識を改め、是非この機会に、自分の「コミュニケーション能力」を向上させましょう！ 
+              </div>
+            </div>
+
             <ul class="answer_ul">
             
               <?php if($your_communication_percentage<25) {?>
@@ -478,10 +524,122 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                   </div>
                 </li>
               <?php }?>
+
             </ul>
           </div>
           <div class="hr_25_bottom_20"></div>
         <?php }?>
+
+        <!-- 基本情報技術者試験 -->
+        <?php if($_SESSION["array"]["answer21"] === "1") {?>
+          <div class="monndai">
+            <h2 class="answer_h2">基本情報技術者試験</h2>
+            <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                基本情報技術者試験とは、高度IT人材となるために必要な基本的知識・技能を問う国家試験です。この試験は、IT関連の職についた新人が真っ先に取らされることが多い試験であり、幅広いITの基礎知識を身につけることが出来ます。IT関連の職に就く方なら是非とも取っておきたい試験の一つです。 
+              </div>
+            </div>
+            
+            <ul class="answer_ul">
+                <li class="answer_li book">
+                  <div class="phone_answer_style">
+                    <?php if ($_SESSION["computer"] === "pc") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20175716&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7818%2F9784297117818.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 基本情報技術者 令和03年 [ きたみりゅうじ ]</a></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20175716&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7818%2F9784297117818.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d8155cccd85b81a04fa9be3da98b4bd%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 基本情報技術者 令和03年 [ きたみりゅうじ ]</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } ?>
+                    <div class="answer_book_text">
+                      <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4">キタミ式イラストIT塾 基本情報技術者 令和03年</h4>
+                      <p class="answer_text_p">「基本情報技術者試験」受験者向けに作られた本です。イラストが非常に多く分かりやすい本であるため、情報系に精通していない方にも文系の方にもオススメ出来ます！</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <div class="hr_25_bottom_20"></div>
+        <?php }?>
+
+        <!-- 応用情報技術者試験 -->
+        <?php if(($_SESSION["array"]["answer21"] === "1")and($_SESSION["array"]["answer22"] === "1")){?>
+          <div class="monndai">
+            <h2 class="answer_h2">応用情報技術者試験</h2>
+            <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                応用情報技術者試験とは、高度IT人材となるために必要な応用的知識・技能を問う国家試験です。この試験は、幅広いITの応用的な知識を身につけることが出来るので、IT業界での長いキャリアを考えるなら、是非とも取っておきたい試験の一つです。 
+              </div>
+            </div>
+            
+            <ul class="answer_ul">
+                <li class="answer_li book">
+                  <div class="phone_answer_style">
+                    <?php if ($_SESSION["computer"] === "pc") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20169031&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7832%2F9784297117832.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 応用情報技術者 令和03年 [ きたみりゅうじ ]</a></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20169031&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7832%2F9784297117832.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 応用情報技術者 令和03年 [ きたみりゅうじ ]</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } ?>
+                    <div class="answer_book_text">
+                      <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4">キタミ式イラストIT塾 応用情報技術者 令和03年</h4>
+                      <p class="answer_text_p">「応用情報技術者試験」受験者向けに作られた本です。基本情報技術者試験よりかなり応用的な内容を扱うので、まずは、基本情報技術者試験の勉強に注力し、その後こちらの勉強をするようにしましょう！</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <div class="hr_25_bottom_20"></div>
+        <?php }elseif(($_SESSION["array"]["answer21"] != "1")and($_SESSION["array"]["answer22"] === "1")){?>
+          <div class="monndai">
+            <h2 class="answer_h2">応用情報技術者試験</h2>
+            <div class="hr_1"></div>
+            <div class="skill_description_frame">
+              <div class="skill_description">
+                応用情報技術者試験とは、高度IT人材となるために必要な応用的知識・技能を問う国家試験です。この試験は、幅広いITの応用的な知識を身につけることが出来るので、IT業界での長いキャリアを考えるなら、是非とも取っておきたい試験の一つです。 
+              </div>
+            </div>
+
+            <ul class="answer_ul">
+                <li class="answer_li book">
+                  <div class="phone_answer_style">
+                    <?php if ($_SESSION["computer"] === "pc") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20169031&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7832%2F9784297117832.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 応用情報技術者 令和03年 [ きたみりゅうじ ]</a></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } elseif ($_SESSION["computer"] === "phone") { ?>
+                      <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1e560d19.7d530fa8.1e560d1a.12c6b470/?me_id=1213310&item_id=20169031&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7832%2F9784297117832.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1e560d1b.2305fe5b.1e560d1c.930dd8f1/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F579eb70512daa57b2704438aaca6157f%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >キタミ式イラストIT塾 応用情報技術者 令和03年 [ きたみりゅうじ ]</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+                    <?php } ?>
+                    <div class="answer_book_text">
+                      <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4">キタミ式イラストIT塾 応用情報技術者 令和03年</h4>
+                      <p class="answer_text_p">「応用情報技術者試験」受験者向けに作られた本です。漫画やイラストを用いて非常に丁寧に説明されている本なので、</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <div class="hr_25_bottom_20"></div>
+        <?php }?>
+        <!-- PHP -->
+
+        <!-- java -->
+
+        <!-- C言語 -->
+
+        <!-- データベース -->
+
+        <!-- ネットワーク -->
+
+        <!-- サーバー -->
+        
+        <!-- セキュリティ -->
+
+        <!-- 設計 -->
+
+        <!-- プレゼン能力 -->
+
       </div>
 
       <!-- ロードマップ -->
