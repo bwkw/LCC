@@ -668,7 +668,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer9", value="5">感じない<br>
+                <input type="radio", name="answer19", value="5">感じない<br>
               </label>
             </dt>
           </dl>
