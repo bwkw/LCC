@@ -188,7 +188,16 @@ a {
   font-family: 'Vollkorn', serif;
   text-align: center;
 }
-
+.skill_description_frame{
+  width: 60%;
+  margin: 4% auto;
+  background-color: #CEF9DC;
+}
+.skill_description{
+  font-size: 130%;
+  padding: 1.4% 2.3% 1.4% 2.3%;
+  line-height : 1.8;
+}
 .answer_li {
   width: 516px;  
   margin: 20px auto;
