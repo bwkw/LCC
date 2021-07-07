@@ -766,7 +766,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
         </div>
 
         <div class="questions_button_div">
-          <dl class="question"><p class="q_p"><span class="q">Q24</span>.&nbsp;&nbsp; javaを触った経験はありますか？</p>
+          <dl class="question"><p class="q_p"><span class="q">Q24</span>.&nbsp;&nbsp; Javaを触った経験はありますか？</p>
             <dt class="choices">
               <label>
                 <input type="radio", name="answer24" value="1">未経験<br>
