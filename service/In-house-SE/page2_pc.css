@@ -189,13 +189,13 @@ a {
   text-align: center;
 }
 .skill_description_frame{
-  width: 60%;
+  width: 70%;
   margin: 4% auto;
   background-color: #CEF9DC;
 }
 .skill_description{
   font-size: 130%;
-  padding: 1.4% 2.3% 1.4% 2.3%;
+  padding: 3.0% 2.5% 3.0% 2.5%;
   line-height : 1.8;
 }
 .answer_li {
