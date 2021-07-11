@@ -272,7 +272,7 @@
     display: block;
   }
   .level{
-    font-size: 120%;
+    font-size: 130%;
   }
   
   /* //////////////////////////////////   回答結果表示 answers    */
@@ -284,7 +284,7 @@
     width: 292px;
   }
   .skill_description_frame{
-    width: 70%;
+    width: 92%;
     margin: 1% auto;
     background-color: #CEF9DC;
   }
