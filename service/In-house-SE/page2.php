@@ -661,8 +661,8 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     <div class="answer_book_text">
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
-                      <h4 class="answer_text_h4">いきなりはじめるPHP ワクワク・ドキドキの入門教室 </h4>
-                      <p class="answer_text_p"></p>
+                      <h4 class="answer_text_h4">いきなりはじめるPHP ワクワク・ドキドキの入門教室</h4>
+                      <p class="answer_text_p">完全な初心者でもPHPをゼロから学べる本です。プログラミングを全く知らない方でも読めるように、難しい用語や説明を省いて説明されています。</p>
                     </div>
                   </div>
                 </li>
@@ -707,7 +707,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">独習PHP 第3版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">PHPでWebページ／アプリケーションを開発する際に必要な基礎的な知識が説明されている本です。 PHPの基本構文から、クラス、データベース連携、セキュリティまで一通り理解できる一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -752,7 +752,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">パーフェクトPHP</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">フレームワークを開発しながら、それを用いてWebアプリケーションを作るというのが特徴的な本です。PHPを体系的に学びたい、中〜上級者におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -788,7 +788,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">スッキリわかるJava入門第3版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">プログラミングを勉強したことがない人でも分かるよう、Javaの基本的な文法について優しく書かれた本です。しっかりと書かれた解説文にイラストや会話形式の吹き出しもあるので、スムーズに読み進められる一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -833,7 +833,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">スッキリわかるJava入門（実践編）第2版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">前半では、Javaの基本文法にも触れながら、後半では、開発方法やデザインパターンまでを広く網羅している本です。Javaの基礎から応用まで幅広く学べる一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -877,7 +877,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">Java言語で学ぶデザインパターン入門増補改訂版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">デザインパターンとはプログラミングにおける設計パターンのことであり、オブジェクト指向設計や開発時に大きな役目を発揮します。ある程度Javaを学習した方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -913,7 +913,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">スッキリわかるC言語入門</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">環境構築から用語の説明、C言語の基本的な文法など幅広く扱っている本です。C言語の難しい概念もイラストを用いてわかりやすく説明されているので、初学者にはおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -958,7 +958,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">新・明解C言語中級編</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">実際に、色々なゲームをプログラミングで作りながら学べる本です。少しC言語を学んだ方は実際に手を動かしながら学べるため、おすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1002,7 +1002,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">開発ツールを使って学ぶ！C言語プログラミング</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">C言語を用いたグループ開発や大規模開発を行う上でのツールの紹介がメインの本です。C言語の基礎を学習し終えた方にとって、エンジニアを目指す上で有益な一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1038,7 +1038,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">図解まるわかり データベースのしくみ</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">データベースの基礎や文法、運用側の注意点などが全て網羅されている本です。難解な印象のあるデータベースの操作が図解を用いて説明されており、最初の一冊に最適な一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1083,7 +1083,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">スッキリわかるSQL入門第2版 ドリル222問付き！</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">初心者が躓きやすいポイントの解決方法がしっかり押さえられている本です。さまざまな状況に応じた対処を学ぶことができるため、データベースの理解をより一層深めたい方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1127,7 +1127,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">達人に学ぶDB設計徹底指南書 初級者で終わりたくないあなたへ</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">データベースの基本的な内容から豊富なサンプルと練習問題まであり、現場で通用する実践的な力が身につく本です、脱初心者を目指す方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1162,7 +1162,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">図解まるわかり ネットワークのしくみ</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">目に見えなくてイメージがつきにくいネットワーク技術の全体像が、まるごと図解で分かる本です。ネットワークの知識がない初学者の方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1178,7 +1178,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">イラスト図解式 この一冊で全部わかるネットワークの基本</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">ネットワークの基本から実際の運用に関わる部分まで網羅されており、イメージを掴むのにとても優れている本です。ネットワークをこれから勉強する方や全体像を掴みたい方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1210,7 +1210,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">ネットワークはなぜつながるのか第2版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">URLの入力からWebページの閲覧に到る過程について、実際に動作する仕組みを一つ一つ取り上げながら丁寧に説明されている本です。ネットワークについて表面的にしか理解できていない方には、知識や理解を深めるためにおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1225,7 +1225,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">インフラ／ネットワークエンジニアのためのネットワーク技術＆設計入門 第2版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">ネットワークについて、座学では手に入らない、実践理解の手助けとなる本です。基本的なインフラの知識が備わっている方には、より実践的な内容を学ぶためにおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1257,7 +1257,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">ネットワークはなぜつながるのか第2版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">URLの入力からWebページの閲覧に到る過程について、実際に動作する仕組みを一つ一つ取り上げながら丁寧に説明されている本です。ネットワークについて表面的にしか理解できていない方には、知識や理解を深めるためにおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1272,7 +1272,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">インフラ／ネットワークエンジニアのためのネットワーク技術＆設計入門 第2版</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">ネットワークについて、座学では手に入らない、実践理解の手助けとなる本です。基本的なインフラの知識が備わっている方には、より実践的な内容を学ぶためにおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
