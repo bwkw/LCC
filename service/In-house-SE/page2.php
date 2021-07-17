@@ -650,6 +650,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -665,6 +666,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/mME5r6mYDVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">PHPとは？｜現役エンジニアが解説【プログラミング超入門】</h4>
+                      <p class="answer_text_p">受講者30,000名を超える日本最大級のオンラインプログラミングスクールTechAcademyのプログラミング解説動画です。 PHPについてTechAcademyのメンターが初心者向けに解説しています。PHP初学者にもおすすめの動画になります。</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -682,6 +695,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -697,6 +711,19 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/uVaOzQLxXt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">【PHPプログラミング入門】PHPとは？PHPでできることや平均年収 #00</h4>
+                      <p class="answer_text_p">PHP入門の動画になります。全９動画で構成されており、phpの開発環境構築から、phpの言語構造、基礎文法など、phpの基礎を身につけたい、より理解したという初心者向けの方におすすめの動画になります。</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -749,6 +776,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -764,6 +792,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/wNtiaX0zcZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">Javaとは？｜現役エンジニアが解説【プログラミング超入門】</h4>
+                      <p class="answer_text_p">受講者30,000名を超える日本最大級のオンラインプログラミングスクールTechAcademyのプログラミング解説動画です。 JavaついてTechAcademyのメンターが初心者向けに解説しています。Java初学者にもおすすめの動画になります。</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -781,6 +821,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -796,6 +837,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/kjxetd5ylzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">Java超入門コース 合併版【Javaの超基本的な部分をたった1時間で学べます】</h4>
+                      <p class="answer_text_p">Javaの超基本的な部分を1時間で学ぶことができます。Javaの基礎的な勉強をしたい方や、初めてプログラミングを勉強する方、すでにプログラミングを習得済みの方でざっとJavaを勉強する方にもおすすめの内容となっています。</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -848,6 +901,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -863,6 +917,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/lmUKuqeI21E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">C言語とは？｜プログラミング言語のC言語の特徴などについて3分でわかりやすく解説します【プログラミング初心者向け】</h4>
+                      <p class="answer_text_p">C言語とは何か？というC言語初学者、プログラミング初心者の方に3分で3分でわかりやすく解説してくれる動画となっています。3分という短い時間で、C言語についての概要、用途、特徴などについて知ることができます</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -880,6 +946,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -895,6 +962,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/fVDuTqb5_u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">C言語入門 第1回 開発環境の準備 プログラミングを始めよう！（全10回）</h4>
+                      <p class="answer_text_p">C言語入門の動画になります。全１０の動画で構成されており、C言語の開発環境構築から、言語構造、基礎文法など、C言語の基礎を身につけたい、より理解したという初心者の方におすすめの動画になります。 </p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -947,6 +1026,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -962,6 +1042,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/ODngv89ra4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">SQLとは？｜データベース言語のSQLについて、できることなど含めて3分でわかりやすく解説</h4>
+                      <p class="answer_text_p">データベース初学者、データベースの内容を知らない方におすすめの動画になります。データーベースの仕組み、概要、出来ることなどについて、現役のエンジニアの方が、わかりやすく説明してくれます。</p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
@@ -979,6 +1071,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </div>
             
             <ul class="answer_ul">
+
                 <li class="answer_li book">
                   <div class="phone_answer_style">
                     <?php if ($_SESSION["computer"] === "pc") { ?>
@@ -994,6 +1087,18 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                     </div>
                   </div>
                 </li>
+                <li class="answer_li mov">
+                  <div class="phone_answer_style">
+                    <iframe src="https://www.youtube.com/embed/T6g-DLWHscw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="answer_mov_text">
+                      <h3 class="answer_text_h3 mov_h3">あなたにおすすめの動画</h3>
+                      <hr class="text_h3_hr">
+                      <h4 class="answer_text_h4_2">データベース設計入門#1 リレーションとER図【11分でマスター！DB設計】</h4>
+                      <p class="answer_text_p">データベース初心者におすすめのデーターベース設計入門、全１３の動画構成になります。データベースを扱う上で必要な知識などを実践しながら学ぶことができ、ボリュームのある内容となっています。 </p>
+                    </div>
+                  </div>
+                </li>
+
             </ul>
 
           </div>
