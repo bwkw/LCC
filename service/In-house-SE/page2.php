@@ -1307,7 +1307,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">図解まるわかり サーバーのしくみ</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">サーバーの全体像から構築や導入、最新技術までが図解を用いて説明されている本です。サーバーの知識がない初学者の方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1323,7 +1323,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">イラスト図解式 この一冊で全部わかるサーバーの基本</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">サーバーの基本から実際の運用に関わる部分までイラストを用いて解説されており、イメージを掴むのにとても優れている本です。サーバーについてこれから勉強する方や全体像を掴みたい方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1355,7 +1355,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">10日でおぼえるLinuxサーバー入門教室 CentOS対応</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">Linuxを使ったWeb/ファイルサーバーの構築・管理のノウハウをイチから学べる入門書です。IT業界に従事する方が必ず身につけておきたいサーバー構築・管理の知識をしっかり習得できる一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1370,7 +1370,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">Amazon Web Services 基礎からのネットワーク＆サーバー構築</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">代表的なクラウドサービス「Amazon Web Services」を実機代わりにネットワークを学び直す、をコンセプトにまとめた本です。インフラをこれから学びたい、一から学び直したい技術者におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1402,7 +1402,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">ゼロからはじめるLinuxサーバー構築・運用ガイド 動かしながら学ぶWebサーバーの作り方</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">Linuxの基礎からセキュリティまで、Webサーバーを運用するために身につけるべき知識をまとめた本です。実際に手を動かしながら、Webサーバを構築・運用するので、実践知識を習得したい方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1437,7 +1437,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">図解まるわかり セキュリティのしくみ</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">不正アクセス・ウイルスといった攻撃手法から脆弱性・暗号技術といった対策までセキュリティの全体像が図解を用いて説明されている本です。セキュリティの知識がない初学者の方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1453,7 +1453,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">イラスト図解式 この一冊で全部わかるセキュリティの基本</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">セキュリティとはそもそも何であり、どのように考えるものかという、基本的な部分からイラストを用いて解説されており、イメージを掴むのにとても優れている本です。セキュリティについてこれから勉強する方や全体像を掴みたい方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1485,7 +1485,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">動かして学ぶセキュリティ入門講座</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">Part1, Part2ではセキュリティの基礎事項を簡単に説明し、Part3では基礎的な対策ツールの使い方を解説している本です。いろいろなケースが丁寧に書かれていて、入門書としてはおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1500,7 +1500,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">小さな会社のIT担当者のためのセキュリティの常識</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">セキュリティについて、具体的で実践的な説明がなされており、知識ゼロでも良くわかる解説書となっています。スマホ利用で気をつけることなどIT業界に従事しない方にも有益な情報が多い一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1532,7 +1532,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">体系的に学ぶ 安全なWebアプリケーションの作り方 第2版 脆弱性が生まれる原理と対策の実践</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">Webアプリケーションに生じうる脆弱性とそれを生まないための対策について、解説している本です。セキュリティについての知識がある程度ある方は、改めて体系的に学ぶのにおすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1567,7 +1567,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">図解でなっとく！トラブル知らずのシステム設計</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">新人SEやアプリケーションエンジニアを主な読者に想定し、画面設計やDB性能に関するシステム設計のポイントを解説した本です。システム設計の知識があまりない方、初めてシステム設計を担当する方におすすめの一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1599,7 +1599,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">Webを支える技術 HTTP、URI、HTML、そしてREST</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">Webがここまで成功した秘訣は、その設計思想にあります。HTTP、URL、HTMLといったWebサービスの根幹となる技術は、Webの巨大化に対応できるように設計されているのです。Webサービスの設計・開発に携わる方は是非とも読むべき一冊です。</p>
                     </div>
                   </div>
                 </li>
@@ -1634,7 +1634,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">社内プレゼンの資料作成術</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">あの孫正義社長が「一発OK」を連発した社内プレゼン術が書かれた本です。スライドは5~9枚にまとめる、キーメッセージは13字以内など魅力的な資料づくりの秘訣が多く紹介されています。</p>
                     </div>
                   </div>
                 </li>
@@ -1650,7 +1650,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">不安が自信に変わる 話し方の教室</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">アナウンサーを40年務めてきた著者が、生徒との対話形式で相手にしっかり伝わる話し方のポイントを詳細に説明している本です。聞き手の心に響く言葉の選び方や目線の動かし方、届く声の出し方など役に立つコツが多く紹介されています。</p>
                     </div>
                   </div>
                 </li>
@@ -1682,7 +1682,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">社内プレゼンの資料作成術</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">あの孫正義社長が「一発OK」を連発した社内プレゼン術が書かれた本です。スライドは5~9枚にまとめる、キーメッセージは13字以内など魅力的な資料づくりの秘訣が多く紹介されています。</p>
                     </div>
                   </div>
                 </li>
@@ -1714,7 +1714,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
                       <h3 class="answer_text_h3 book_h3">あなたにおすすめの本</h3>
                       <hr class="text_h3_hr">
                       <h4 class="answer_text_h4">不安が自信に変わる 話し方の教室</h4>
-                      <p class="answer_text_p"></p>
+                      <p class="answer_text_p">アナウンサーを40年務めてきた著者が、生徒との対話形式で相手にしっかり伝わる話し方のポイントを詳細に説明している本です。聞き手の心に響く言葉の選び方や目線の動かし方、届く声の出し方など役に立つコツが多く紹介されています。</p>
                     </div>
                   </div>
                 </li>
