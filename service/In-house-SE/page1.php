@@ -844,7 +844,7 @@ if ($_SESSION["computer"]  === null || $_SESSION["computer"]  === "") {
             </dt>
             <dt class="choices">
               <label>
-                <input type="radio", name="answer26" value="4">自分の作りたいもの/簡単なポートフォリオがある程度作成可能<br>
+                <input type="radio", name="answer26" value="4">自分のアプリにDBを連携させられる<br>
               </label>
             </dt>
             <dt class="choices">
